@@ -96,7 +96,7 @@ Apero users have four possible actions against objectionable content.
 
 Level 1 - Swipe towards left, or right-click, to quickly hide the post/message. This is temporary and lasts only until the next time the current content is reloaded, be it automatically or manually. This is a simple convenience intended to quickly hide the objectionable content before deciding upon further possible action.
 
-Level 2 - Click the Mute button in a user profile: if you mute a user, you won't see their posts or messages anymore. This works like a filter, managed on API side by pnut.io. The effects are immediate and stay active forever unless you click the Unmute button.
+Level 2 - Click the Mute button in a user profile: if you mute a user, you won't see their posts anymore. This works like a filter, managed on API side by pnut.io. The effects are immediate and stay active forever unless you click the Unmute button.
 
 Level 3 - Click the Block button in a user profile: if you block a user, they will be automatically muted (as in level 2), they will also be unfollowed, then it limits their account: they will automatically unfollow you, and they won't be able to follow you again, to message you or to do any other action related to your account anymore. This is also managed on API side by pnut.io. The effects are immediate and the limits stay active forever unless you click the Unblock button.
 
