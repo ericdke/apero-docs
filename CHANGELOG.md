@@ -5,6 +5,7 @@
 - New: embedded and linked images in Channels/PMs
 - New: right-click action on posts/messages (same ones as swipe actions)
 - Fixed: double click on Send button would send the post/message twice
+- Fixed: a message that you just sent to a channel could appear twice sometimes (unrelated to previous issue)
 - Fixed: alert when editing a post or replying to a post or message if already composing a post/message
 - Fixed: images weren't included in the Mentions stream
 - Fixed: some modal alert dialogs
