@@ -1,4 +1,4 @@
-## 0.5 - 2017-03-.. - 'Starry Eyes'
+## 0.5.2 - 2017-03-20 - 'Starry Eyes'
 
 - New: custom buttons instead of macOS default
 - New: new layout for user profile and preferences windows
