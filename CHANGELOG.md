@@ -1,5 +1,6 @@
 ## 0.5.2 - 2017-03-20 - 'Starry Eyes'
 
+- New: app icon
 - New: custom buttons instead of macOS default
 - New: new layout for user profile and preferences windows
 - New: embedded and linked images in Channels/PMs
