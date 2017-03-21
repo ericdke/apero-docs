@@ -5,6 +5,7 @@
 - Fixed: the user profile should not show youFollow/followsYou for the logged in user
 - Fixed: using TAB in the username text field in the Send PM window
 - Fixed: using RETURN in Search Tag or Search User immediately launches the search
+- Improved: the All Channels list was not fetching enough channels in some cases
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
 
