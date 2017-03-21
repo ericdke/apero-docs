@@ -1,3 +1,11 @@
+## 0.5.3 - 2017-03-.. - ''
+
+- Small UI adjustments (a few pixels here and there)
+- Fixed: logout/login window could misbehave after logout
+- Fixed: the user profile should not show youFollow/followsYou for the logged in user
+- Fixed: using TAB/RETURN in the username text field in the Send PM window
+- Fixed: using RETURN in Search Tag or Search User immediately launches the search
+
 ## 0.5.2 - 2017-03-20 - 'Starry Eyes'
 
 - New: app icon
