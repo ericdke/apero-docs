@@ -6,6 +6,7 @@
 - Fixed: using TAB after typing the username in the Send PM window
 - Fixed: using RETURN in Search Tag or Search User to immediately launch the search
 - Improved: the All Channels list was not fetching enough channels in some cases
+- Improved: you can also authorize/login Apero with a browser (if you want to use a password manager)
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
 
