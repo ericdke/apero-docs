@@ -2,13 +2,13 @@
 
 - Small UI adjustments (a few pixels here and there)
 - New: authorize/login Apero with a browser instead of the app's web window (if you want to use a password manager)
-- New: reply to a post or message with right-click (or ctrl-click) in timeline then click "Reply" or hit "R"
+- New: reply to a post or message with right-click in timeline then click "Reply" or hit "R"
 - Fixed: the user profile should not show youFollow/followsYou for the logged in user
 - Fixed: using TAB after typing the username in the Send PM window
 - Fixed: using RETURN in Search Tag or Search User to immediately launch the search
 - Fixed: the All Channels list was not fetching enough channels in some cases
 - Fixed: logout sequence (no more sneaking back into the account)
-- Fixed: starring a post would trigger an alert in some cases (bug introduced in 0.4.5)
+- Fixed: starring/reposting a post would trigger an alert in some cases (bug introduced in 0.4.5)
 - Fixed: inconsistency in the save/load API configuration process
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
