@@ -1,12 +1,13 @@
-## 0.5.3 - 2017-03-21 - "Echoes"
+## 0.5.3 - 2017-03-22 - "Echoes"
 
 - Small UI adjustments (a few pixels here and there)
-- Fixed: logout sequence
+- New: authorize/login Apero with a browser instead of the app's web window (if you want to use a password manager)
 - Fixed: the user profile should not show youFollow/followsYou for the logged in user
 - Fixed: using TAB after typing the username in the Send PM window
 - Fixed: using RETURN in Search Tag or Search User to immediately launch the search
-- Improved: the All Channels list was not fetching enough channels in some cases
-- Improved: you can also authorize/login Apero with a browser (if you want to use a password manager)
+- Fixed: the All Channels list was not fetching enough channels in some cases
+- Fixed: logout sequence (no more sneaking back into the account)
+- Fixed: starring a post would trigger an alert in some cases (bug introduced in 0.4.5)
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
 
