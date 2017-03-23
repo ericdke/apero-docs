@@ -8,9 +8,10 @@
 - Fixed: using RETURN in Search Tag or Search User to immediately launch the search
 - Fixed: the All Channels list was not fetching enough channels in some cases
 - Fixed: logout sequence (no more sneaking back into the account)
-- Fixed: starring/reposting a post would trigger an alert in some cases (broken by 0.4.5)
+- Fixed: starring/reposting a post would trigger an alert in some cases
 - Fixed: inconsistency in the save/load API configuration process
-- Fixed: uploading avatar and cover image (broken by 0.4.5)
+- Fixed: uploading avatar and cover image was broken
+- Fixed: no more modal alerts in case of recoverable network failures
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
 
