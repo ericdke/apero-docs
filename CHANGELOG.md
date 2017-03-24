@@ -3,6 +3,7 @@
 - Small UI adjustments (a few pixels here and there)
 - New: authorize/login Apero with a browser instead of the app's web window (if you want to use a password manager)
 - New: reply to a post or message with right-click in timeline then click "Reply" or hit "R"
+- New: option to highlight posts mentioning you (in Global or Unified)
 - Fixed: the user profile should not show youFollow/followsYou for the logged in user
 - Fixed: using TAB after typing the username in the Send PM window
 - Fixed: using RETURN in Search Tag or Search User to immediately launch the search
