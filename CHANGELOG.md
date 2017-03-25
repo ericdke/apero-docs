@@ -1,4 +1,4 @@
-## 0.5.3 - 2017-03-22 - "Echoes"
+## 0.6.1 - 2017-03-25 - "Echoes"
 
 - Small UI adjustments (a few pixels here and there)
 - New: authorize/login Apero with a browser instead of the app's web window (if you want to use a password manager)
@@ -15,7 +15,7 @@
 - Fixed: inconsistency in the save/load API configuration process
 - Fixed: uploading avatar and cover image was broken
 - Fixed: no more modal alerts in case of recoverable network failures
-- Fixed: proper localized date format
+- Fixed: localized date format
 
 ## 0.5.2 - 2017-03-20 - "Starry Eyes"
 
