@@ -31,7 +31,7 @@ Authorize Apero to access your pnut.io account:
 ## Windows with posts and messages
 
 - at launch, when possible, the main window automatically jumps to the last post you've seen
-- the main window then automatically polls new posts for Global, Unified, Mentions (same for the Messages windows)
+- the main window then automatically polls new posts for Global, Home, Mentions (same for the Messages windows)
 - the other "posts windows" (threads, user posts, bookmarked posts, "explore"...) do not automatically poll new posts
 - all "posts windows" have a button to load more old posts except "explore", available when scrolled to the bottom of the timeline/list
 - click on a username/avatar or @mention to get the user profile
@@ -42,7 +42,7 @@ Authorize Apero to access your pnut.io account:
 - Apero can read the special long posts made by ChimPnut, the iOS client, but can not post them
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
 - shortcuts:
-	- main window: CMD+1 for Global, CMD+2 for Unified, CMD+3 for Mentions
+	- main window: CMD+1 for Global, CMD+2 for Home, CMD+3 for Mentions
 	- channels list window: CMD+R to refresh
 	- if a messages window is active: CMD+P to compose a new PM
 
