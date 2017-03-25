@@ -5,6 +5,7 @@
 - New: reply to a post or message with right-click in timeline then click "Reply" or hit "R"
 - New: option to highlight posts mentioning you (in Global or Unified)
 - New: choose the color of convo root, convo target, and highlighted post with mention
+- New: custom About window
 - Fixed: the "More..." button is now only displayed when scrolling to bottom is initiated by the user
 - Fixed: the user profile should not show youFollow/followsYou for the logged in user
 - Fixed: using TAB after typing the username in the Send PM window
