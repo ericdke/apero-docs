@@ -81,6 +81,26 @@ Shortcuts:
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
 - right-click on a post/message for a contextual menu of the same options, quick hide and copy content
 
+## Preferences
+
+Changing colors takes effect immediately but you have to click "Save current theme" in order to persist the theme between launches.
+
+Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
+
+"Timeline always sticks to top": when this option is on, the timeline always sticks to the top of the window if you're already there.
+
+"Hide deleted posts/messages": when this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
+
+"Highlight posts mentioning you": when this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
+
+"Localized date in timeline": when this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
+
+"Polling indicator is visible": when this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
+
+"Hijack patter.chat links in posts/messages": when this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+
+"Automatically save draft": works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+
 ## Support
 
 - For an issue about Apero the application itself, contact apero@aya.io
