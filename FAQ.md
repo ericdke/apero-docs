@@ -1,16 +1,18 @@
-Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12 recommended).
-
-You **must** have a pnut.io account in order to use Apero.
+Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12 recommended). You must have a pnut.io account in order to use Apero.
 
 *Apero will be available soon on the Mac App Store.*
+
+## What does "Apero" mean?
+
+Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! ;)
 
 ## Authorization and login
 
 Authorize Apero to access your pnut.io account:
 
-- launch Apero, enter your pnut.io login and password in the authorization window, confirm, then pnut.io will send back an authorization token to Apero
-- Apero will safely save this token in the macOS Keychain for future usage, then will use it to log you in the pnut network
-- successive launches of Apero will automatically log you in again with the same account, unless you log out before quitting the app
+- launch Apero, enter your pnut.io login and password, confirm, then pnut.io will safely send back an authorization token
+- Apero will then safely save this token in the macOS Keychain for future usage, then will use it to log you in the pnut network
+- successive launches of Apero will automatically log you again in the same account, unless you log out before quitting the app
 
 ## Posting
 
@@ -38,7 +40,7 @@ Authorize Apero to access your pnut.io account:
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link to open it in your browser
 - double click on an image to open it in your browser
-- the posts windows try to read all oembed images and other images links in the timeline
+- images and gifs are displayed inline in posts and messages
 - Apero can read the special long posts made by ChimPnut, the iOS client, but can not post them
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
 - shortcuts:
@@ -57,7 +59,8 @@ Authorize Apero to access your pnut.io account:
 
 ## Menus
 
-- shortcuts:
+Shortcuts:
+
  - profile: CMD+P
  - new post: CMD+N
  - new PM: CMD+M
@@ -78,17 +81,20 @@ Authorize Apero to access your pnut.io account:
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
 - right-click on a post/message for a contextual menu of the same options, quick hide and copy content
 
-## What does "Apero" mean?
-
-Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! ;)
-
 ## Support
 
 - For an issue about Apero the application itself, contact apero@aya.io
 - For an issue about the pnut.io network or a user, contact support@pnut.io
-- The pnut.io TOS apply when using Apero. Do not post inappropriate content or behave in inappropriate ways. Your account may be suspended by pnut.io without warning if deemed a threat to others or to the service's maintenance and upkeep. 
-- If you want to report a specific user, send an email to support@pnut.io. In Apero, you can yourself filter objectionable content and users with the hide, mute and block features, see the Objectionable Content chapter on this page. 
-- Apero does not guarantee uptime or delivery of the pnut.io services, it is only an independent client application. If pnut.io doesn't work for any reason, then Apero doesn't work, as one would expect. In this sense, buying Apero does not guarantee any period of functioning time for the application.
+- The pnut.io [Terms of Service](https://pnut.io/docs/tos) and [Privacy Policy](https://pnut.io/docs/privacy) apply when using Apero. Do not post inappropriate content or behave in inappropriate ways. Your account may be suspended by pnut.io without warning if deemed a threat to others or to the service's maintenance and upkeep. 
+- If you want to report a specific user, send an email to support@pnut.io. In Apero, you can yourself filter objectionable content and users with the hide, mute and block features, see the Objectionable Content chapter on this page.
+
+## Features and availability
+ 
+Apero does not guarantee uptime or delivery of the pnut.io services, it is only an independent client application. If pnut.io doesn't work for any reason, then Apero doesn't work, as one would expect. In this sense, buying Apero does not guarantee any period of functioning time for the application.
+
+## Privacy
+
+Apero does not collect user information in any way. Users list such as those used for username autocompletion are only populated while the application is running, live, and do not persist into any form of storage, neither while the application is running nor after it's been quit.
 
 ## Objectionable Content
 
