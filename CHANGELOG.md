@@ -4,7 +4,7 @@
 - Fixed: opening an image embedded in a reposted post
 - Fixed: version number (MAS would previously suggest an update when there was not)
 
-## 0.6.2 - 2017-03-27 - "Reservoir Dogs"
+## 0.6.2/1.0 - 2017-03-27 - "Reservoir Dogs"
 
 - Fixed: URL scheme is properly deactivated when user is logged out
 - Fixed: height of user profile description for the logged in user
