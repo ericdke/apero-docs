@@ -1,3 +1,9 @@
+## 1.0.2 - 2017-03-29 - "The Day After"
+
+- Fixed: 2 x click to open an image in browser from thread window and user posts window
+- Fixed: opening an image embedded in a reposted post
+- Fixed: version number (MAS would previously suggest an update when there was not)
+
 ## 0.6.2 - 2017-03-27 - "Reservoir Dogs"
 
 - Fixed: URL scheme is properly deactivated when user is logged out
