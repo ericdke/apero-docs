@@ -1,5 +1,6 @@
 ## 1.0.2 - 2017-03-30 - "The Day After"
 
+- New: clickable entities in the user profile description
 - Fixed: 2 x click to open an image in browser from thread window and user posts window
 - Fixed: opening an image embedded in a reposted post
 - Fixed: logout sequence (better memory management)
