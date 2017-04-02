@@ -1,6 +1,7 @@
 ## 1.0.2 - 2017-04-02 - "The Day After"
 
-- New: clickable entities in the user profile description
+- New: search for an existing private conversation with a user
+- Fixed: clickable entities in the user profile description
 - Fixed: see a user's posts from their profile even if they are muted
 - Fixed: 2 x click to open an image in browser in some cases
 - Fixed: opening an image embedded in a reposted post
