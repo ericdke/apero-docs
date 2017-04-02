@@ -1,6 +1,8 @@
 ## 1.0.2 - 2017-04-02 - "The Day After"
 
 - New: search for an existing private conversation with a user
+- New: channels are divided in 4 menus: All, Messages, Rooms, and Other (ALT+CMD+4 for Other)
+- Changed: shortcuts for Explore menus are now SHIFT+CMD+1, SHIFT+CMD+2, and SHIFT+CMD+3 
 - Fixed: clickable entities in the user profile description
 - Fixed: see a user's posts from their profile even if they are muted
 - Fixed: 2 x click to open an image in browser in some cases
