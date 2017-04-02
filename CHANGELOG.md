@@ -1,4 +1,4 @@
-## 1.0.2 - 2017-04-02 - "The Day After"
+## 1.0.3 - 2017-04-02 - "The Day After"
 
 - New: search for an existing private conversation with a user
 - New: channels are divided in 4 menus: All, Messages, Rooms, and Other (ALT+CMD+4 for Other)
