@@ -1,6 +1,6 @@
 Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12 recommended). You must have a pnut.io account in order to use Apero.
 
-*Apero will be available soon on the Mac App Store.*
+Apero is available [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
 
 ## What does "Apero" mean?
 
