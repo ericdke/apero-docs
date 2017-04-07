@@ -1,6 +1,6 @@
-## 1.1.0 - 2017-04-07 - 'The Fisher King'
+## 1.1.0 - 2017-04-07 WIP - 'The Fisher King'
 
-- Fixed: all images (avatars, embedded gifs, etc) are now cached to memory and disk
+- Improved: memory management (images caching and various other optimizations)
 - Fixed: redundant parameters in some URL queries
 - Fixed: "Reposted by" label length
 
