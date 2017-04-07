@@ -1,3 +1,9 @@
+## 1.1.0 - 2017-04-07 - 'The Fisher King'
+
+- Fixed: all images (avatars, embedded gifs, etc) are now cached to memory and disk
+- Fixed: redundant parameters in some URL queries
+- Fixed: "Reposted by" label length
+
 ## 1.0.3 - 2017-04-02 - "The Day After"
 
 - New: search for an existing private conversation with a user
