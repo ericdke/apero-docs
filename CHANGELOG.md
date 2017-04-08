@@ -1,9 +1,9 @@
 ## 1.1.0 - 2017-04-08 WIP - 'The Fisher King'
 
-- Improved: memory management (images caching and various other optimizations)
+- Improved: memory management (images caching and various optimizations)
 - Fixed: timeline display while using color panel from preferences window
 - Fixed: redundant parameters in some URL queries
-- Fixed: "Reposted by" label length
+- Fixed: "Reposted by" label length truncation
 
 ## 1.0.3 - 2017-04-02 - "The Day After"
 
