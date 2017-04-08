@@ -2,6 +2,7 @@
 
 - New: click once on a gif to pause/play
 - Fixed: timeline display while using color panel from preferences window
+- Fixed: bookmark/repost a reposted post
 - Fixed: redundant parameters in some URL queries
 - Fixed: "Reposted by" label length truncation
 - Improved: memory management (images caching and various optimizations)
