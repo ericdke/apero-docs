@@ -1,11 +1,12 @@
-## 1.1.0 - 2017-04-08 WIP - 'The Fisher King'
+## 1.1.0 - 2017-04-09 WIP - 'The Fisher King'
 
 - New: click once on a gif to pause/play
 - Fixed: timeline display while using color panel from preferences window
 - Fixed: bookmark/repost a reposted post
 - Fixed: redundant parameters in some URL queries
 - Fixed: "Reposted by" label length truncation
-- Improved: memory management (images caching and various optimizations)
+- Improved: memory management (images/gif caching and other optimizations)
+- Improved: more usernames available in the completion list
 
 ## 1.0.3 - 2017-04-02 - "The Day After"
 
