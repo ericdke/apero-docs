@@ -1,6 +1,7 @@
-## 1.1.0 - 2017-04-13 WIP - 'The Fisher King'
+## 1.1 (4) - 2017-04-15 - 'The Fisher King'
 
 - New: click once on a gif to pause/play
+- Fixed: crash when opening channels/messages window after API update
 - Fixed: bookmark/repost a reposted post
 - Fixed: "Reposted by" label content and truncation
 - Fixed: UI glitches when using color panel from preferences window
