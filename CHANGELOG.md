@@ -1,3 +1,13 @@
+## 1.3.1 - 2017-04-22 - ''
+
+- Fixed: mention highlight was clipped when scroller was visible
+- Fixed: the "More" button could fail to appear in some cases
+- Fixed: the login window is now resizable
+
+## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
+
+- Fixed: color panel from preferences window
+
 ## 1.1 (4) - 2017-04-15 - 'The Fisher King'
 
 - New: click once on a gif to pause/play
