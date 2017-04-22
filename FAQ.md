@@ -41,6 +41,7 @@ Authorize Apero to access your pnut.io account:
 - click on a link to open it in your browser
 - double click on an image to open it in your browser
 - images and gifs are displayed inline in posts and messages
+- click on a gif to pause/play
 - Apero can read the special long posts made by ChimPnut, the iOS client, but can not post them
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
 - shortcuts:
@@ -67,11 +68,13 @@ Shortcuts:
  - all channels: ALT+CMD+1
  - messages (PMs): ALT+CMD+2
  - chatrooms: ALT+CMD+3
- - explore conversations: AL+CMD+4
- - explore posts with photos: AL+CMD+5
- - explore trending posts: AL+CMD+6
+ - other: ALT+CMD+4
+ - explore conversations: SHIFT+CMD+1
+ - explore posts with photos: SHIFT+CMD+2
+ - explore trending posts: SHIFT+CMD+3
  - search hashtag: CMD+T
  - search user: CMD+U
+ - search chat with user: CMD+O
  - preferences: CMD+,
  - recall main window: ALT+CMD+0
 
@@ -79,7 +82,7 @@ Shortcuts:
 
 - swipe towards left on a post/message: quick hide (see the Objectionable Content chapter on this page)
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
-- right-click on a post/message for a contextual menu of the same options, quick hide and copy content
+- right-click on a post/message for a contextual menu of the same options (and other when available, like reply)
 
 ## Preferences
 
