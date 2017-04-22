@@ -1,8 +1,9 @@
-## 1.3.1 - 2017-04-22 - ''
+## 1.3.1 - 2017-04-22 - 'Bubble Bobble'
 
-- Fixed: mention highlight was clipped when scroller was visible
+- Fixed: in streams, mention highlight was clipped when scroller is visible
+- Fixed: in channels, preview text could be clipped when scroller is visible
 - Fixed: the "More" button could fail to appear in some cases
-- Fixed: the login window is now resizable
+- Fixed: resizing the login window
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
