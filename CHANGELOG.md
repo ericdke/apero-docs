@@ -1,5 +1,6 @@
 ## 1.3.1 - 2017-04-22 (WIP) - 'Bubble Bobble'
 
+- New: option to display the channels list as normal or compact
 - Fixed: in streams, mention highlight was clipped when scroller is visible
 - Fixed: in channels, preview text could be clipped when scroller is visible
 - Fixed: the "More" button could fail to appear in some cases
