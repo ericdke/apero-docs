@@ -6,8 +6,9 @@
 - Fixed: in channels, preview text could be clipped when scroller is visible
 - Fixed: the "More" button could fail to appear in some cases
 - Fixed: resizing the login window
-- Fixed: hidden posts/messages follow the same rules as deleted posts/messages
-- Fixed: opened profile window updates the followings number when you follow/unfollow another user 
+- Fixed: the profile window updates the followings number when you follow/unfollow another user
+- Improved: handling of hidden posts/messages
+- Improved: images/gif in-memory and on-disk caches
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
