@@ -94,6 +94,8 @@ Available fonts are curated to be compatible with Apero and their number is very
 
 "Hide deleted posts/messages": when this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
 
+"Hide NSFW posts": when this option is on, posts tagged with "#NSFW" *or* programmatically marked as NSFW will not be visible in the timeline.
+
 "Highlight posts mentioning you": when this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
 
 "Localized date in timeline": when this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
@@ -102,7 +104,11 @@ Available fonts are curated to be compatible with Apero and their number is very
 
 "Hijack patter.chat links in posts/messages": when this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
 
-"Automatically save draft": works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+"Automatically save post draft": works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+
+"Memory cache limit": number of days (running time) between the images/gif memory cache cleaning cycles. Note that changing this option, even to set it again to the same value, automatically triggers the memory cache cleaning procedure.
+
+"Disk cache limit": number of days (calendar time) between the images/gif disk cache cleaning cycle. Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.
 
 ## Support
 
