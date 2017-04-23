@@ -1,14 +1,14 @@
-## 1.3.1 - 2017-04-22 (WIP) - 'Bubble Bobble'
+## 1.3.1 - 2017-04-23 (WIP) - 'Bubble Bobble'
 
 - New: option to display the channels list as normal or compact
 - New: option to hide posts that are tagged #NSFW or programmatically marked as such
+- Improved: images/gif in-memory and on-disk caches (with customizable values)
 - Fixed: in streams, mention highlight was clipped when scroller is visible
 - Fixed: in channels, preview text could be clipped when scroller is visible
 - Fixed: the "More" button could fail to appear in some cases
 - Fixed: resizing the login window
-- Fixed: the profile window updates the followings number when you follow/unfollow another user
-- Improved: handling of hidden posts/messages
-- Improved: images/gif in-memory and on-disk caches
+- Fixed: your profile window updates its values when you follow/unfollow another user
+- Fixed: rare issues in the handling of hidden posts/messages
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
