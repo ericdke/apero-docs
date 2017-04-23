@@ -7,6 +7,7 @@
 - Fixed: the "More" button could fail to appear in some cases
 - Fixed: resizing the login window
 - Fixed: hidden posts/messages follow the same rules as deleted posts/messages
+- Fixed: opened profile window updates the followings number when you follow/unfollow another user 
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
