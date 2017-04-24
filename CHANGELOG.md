@@ -1,15 +1,16 @@
-## 1.3.1 - 2017-04-24 (WIP) - 'Bubble Bobble'
+## 1.3.1 - 2017-04-25 (WIP) - 'Bubble Bobble'
 
-- New: interactions window, available from menubar (for logged-in user) or contextual menu (for clicked post)
-- New: option to display the channels list as normal or compact
-- New: option to hide posts that are tagged #NSFW or programmatically marked as such
-- Improved: images/gif in-memory and on-disk caches (with customizable values)
-- Fixed: in streams, mention highlight was clipped when scroller is visible
-- Fixed: in channels, preview text could be clipped when scroller is visible
-- Fixed: the "More" button could fail to appear in some cases
-- Fixed: resizing the login window
-- Fixed: your profile window updates its values when you follow/unfollow another user
-- Fixed: rare issues in the handling of hidden posts/messages
+- New interactions window: from menubar (for logged-in user) or contextual menu (for clicked post).
+- New channels list layout with mini avatars and improved readability.
+- New option to display the channels list in normal or compact mode.
+- New option to hide posts that are tagged #NSFW or programmatically marked as such.
+- Better images/gif in-memory and on-disk caching (with customizable values).
+- Fixed a bug where items could be clipped when the vertical scroller is visible.
+- Fixed a rare bug where the "More" button could fail to appear.
+- Resizing the login web window works again.
+- The profile window updates its values when you follow/unfollow another user.
+- Fixed some rare issues in the handling of hidden posts/messages.
+- Fixed the issue of the avatars in followers/followings lists not being rounded.
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
