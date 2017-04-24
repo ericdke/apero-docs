@@ -1,5 +1,6 @@
-## 1.3.1 - 2017-04-23 (WIP) - 'Bubble Bobble'
+## 1.3.1 - 2017-04-24 (WIP) - 'Bubble Bobble'
 
+- New: interactions window, available from menubar (for logged-in user) or contextual menu (for clicked post)
 - New: option to display the channels list as normal or compact
 - New: option to hide posts that are tagged #NSFW or programmatically marked as such
 - Improved: images/gif in-memory and on-disk caches (with customizable values)
