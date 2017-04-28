@@ -34,8 +34,8 @@ Authorize Apero to access your pnut.io account:
 
 - at launch, when possible, the main window automatically jumps to the last post you've seen
 - the main window then automatically polls new posts for Global, Home, Mentions (same for the Messages windows)
-- the other "posts windows" (threads, user posts, bookmarked posts, "explore"...) do not automatically poll new posts
-- all "posts windows" have a button to load more old posts except "explore", available when scrolled to the bottom of the timeline/list
+- the other "posts windows" (threads, user posts, bookmarks, explore streams...) do not automatically poll new posts
+- all "posts windows" have a button to load more old posts, available when scrolled to the bottom of the timeline/list
 - click on a username/avatar or @mention to get the user profile
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link to open it in your browser
