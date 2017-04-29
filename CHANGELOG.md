@@ -8,7 +8,6 @@
 - Loading more older items is now also available for Explore streams and Channels list.
 - Better images/gif in-memory and on-disk caching (with customizable values).
 - Fixed a bug where items could be clipped when the vertical scroller is visible.
-- Fixed a rare bug where the "More" button could fail to appear.
 - Resizing the login web window works again.
 - The profile window updates its values when you follow/unfollow another user.
 - Fixed some rare issues in the handling of hidden posts/messages.
