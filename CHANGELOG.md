@@ -1,11 +1,11 @@
-## 1.3.1 (7) - 2017-04-29 (WIP) - 'Bubble Bobble'
+## 1.3.1 (7) - 2017-04-30 (WIP) - 'Bubble Bobble'
 
 - New interactions window: from menubar (for logged-in user) or contextual menu (for clicked post).
 - New channels list layout with mini avatars and improved readability.
 - New option to display the channels list in normal or compact mode.
 - New option to hide posts that are tagged #NSFW or programmatically marked as such.
-- The "More..." button has been replaced by automatic fetching of older posts/messages.
-- Loading more older posts is now also available for Explore streams.
+- The "More..." button has been replaced by automatic fetching of older posts/messages when the user scrolls to the bottom.
+- Loading more older items is now also available for Explore streams and Channels list.
 - Better images/gif in-memory and on-disk caching (with customizable values).
 - Fixed a bug where items could be clipped when the vertical scroller is visible.
 - Fixed a rare bug where the "More" button could fail to appear.
