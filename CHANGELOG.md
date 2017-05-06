@@ -1,17 +1,30 @@
-## 1.3.1 (7) - 2017-04-30 (WIP) - 'Bubble Bobble'
+## 1.3.1 (7) - 2017-05-05 (WIP) - 'Bubble Bobble'
 
-- New interactions window: from menubar (for logged-in user) or contextual menu (for clicked post).
-- New channels list layout with mini avatars and improved readability.
-- New option to display the channels list in normal or compact mode.
-- New option to hide posts that are tagged #NSFW or programmatically marked as such.
-- The "More..." button has been replaced by automatic fetching of older posts/messages when the user scrolls to the bottom.
-- Loading more older items is now also available for Explore streams and Channels list.
-- Better images/gif in-memory and on-disk caching (with customizable values).
-- Fixed a bug where items could be clipped when the vertical scroller is visible.
+- New "Interactions" window: from menubar (for the logged-in user) or contextual menu (for a post). This lists who followed/unfollowed you, who replied to your posts, bookmarks activity, etc.
+
+- New Explore menu: "Lonely posts". An always different collection of posts which didn't spark conversations, but could/should have.
+
+- New channels list layout with mini avatars of the channels owners, improved readability, and an option to display in normal mode (with details and preview of the last message for each channel) or compact mode (without any details).
+
+- New option to hide posts that are tagged #NSFW, or are programmatically marked as such without using the tag.
+
+- New option: "directed posts". When the option is on (by default), the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
+
+- The "More..." button has been replaced by automatic fetching of older posts/messages when the user scrolls to the bottom of the timeline.
+
+- Loading more older items is now also available for Explore streams, Channels list, and users lists.
+
+- Handling of the images/gif in memory and caching them on disk has been improved. You can also customize the cache expiration values.
+
+- Fixed a bug where interface elements could be clipped when the vertical scroller is visible.
+
 - Resizing the login web window works again.
-- The profile window updates its values when you follow/unfollow another user.
+
+- Fixed a bug where the profile window didn't update its values when following/unfollowing another user.
+
 - Fixed some rare issues in the handling of hidden posts/messages.
-- Fixed the issue of the avatars in followers/followings lists not being rounded.
+
+- Fixed the issue of the avatars in the followers/followings lists not being rounded.
 
 ## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
 
