@@ -35,7 +35,7 @@ Authorize Apero to access your pnut.io account:
 - at launch, when possible, the main window automatically jumps to the last post you've seen
 - the main window then automatically polls new posts for Global, Home, Mentions (same for the Messages windows)
 - the other "posts windows" (threads, user posts, bookmarks, explore streams...) do not automatically poll new posts
-- all "posts windows" have a button to load more old posts, available when scrolled to the bottom of the timeline/list
+- all windows automatically load more older items when the user has scrolled to the bottom of the timeline/list
 - click on a username/avatar or @mention to get the user profile
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link to open it in your browser
@@ -63,6 +63,7 @@ Authorize Apero to access your pnut.io account:
 Shortcuts:
 
  - profile: CMD+P
+ - interactions: CMD+I
  - new post: CMD+N
  - new PM: CMD+M
  - all channels: ALT+CMD+1
@@ -72,6 +73,7 @@ Shortcuts:
  - explore conversations: SHIFT+CMD+1
  - explore posts with photos: SHIFT+CMD+2
  - explore trending posts: SHIFT+CMD+3
+ - explore lonely posts: SHIFT+CMD+4
  - search hashtag: CMD+T
  - search user: CMD+U
  - search chat with user: CMD+O
@@ -82,7 +84,7 @@ Shortcuts:
 
 - swipe towards left on a post/message: quick hide (see the Objectionable Content chapter on this page)
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
-- right-click on a post/message for a contextual menu of the same options (and other when available, like reply)
+- right-click on a post/message for a contextual menu of the same options (and other when available, like reply and interactions)
 
 ## Preferences
 
@@ -90,19 +92,23 @@ Changing colors takes effect immediately but you have to click "Save current the
 
 Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
 
+"Highlight posts mentioning you": when this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
+
+"Compact channels list": when this option is on, the channels list do not show any details such as the list of users and the last message.
+
+"Hijack patter.chat links in posts/messages": when this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+
+"Polling indicator is visible": when this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
+
+"Localized date in timeline": when this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
+
+"Include directed posts": when this option is on, the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
+
 "Timeline always sticks to top": when this option is on, the timeline always sticks to the top of the window if you're already there.
 
 "Hide deleted posts/messages": when this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
 
-"Hide NSFW posts": when this option is on, posts tagged with "#NSFW" *or* programmatically marked as NSFW will not be visible in the timeline.
-
-"Highlight posts mentioning you": when this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
-
-"Localized date in timeline": when this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
-
-"Polling indicator is visible": when this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
-
-"Hijack patter.chat links in posts/messages": when this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+"Hide NSFW posts": when this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will not be visible in the timeline.
 
 "Automatically save post draft": works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
 
