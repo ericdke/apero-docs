@@ -1,3 +1,7 @@
+## 1.3.2 (8) - 2017-05-12 - 'Generations'
+
+- Fixed the login window for macOS 10.11
+
 ## 1.3.1 (7) - 2017-05-08 - 'Bubble Bobble'
 
 - The pnut.io authorization page now continues to work properly even after having entered wrong credentials in previous login attempts (this fixes the issue reported in a recent review). There's also a button to go back to the authorization forms if the user has navigated elsewhere before authorizing Apero.
