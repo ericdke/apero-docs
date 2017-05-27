@@ -1,3 +1,11 @@
+## 1.4.0 (10) - 2017-05-27 - 'Xenomorph'
+
+- New: dark mode
+- New: right-click or swipe on a channel to open its messages
+- The "Search chat with user" box is no longer modal
+- Optimized image caching and memory management
+- Better "About" window
+
 ## 1.3.2 (8) - 2017-05-12 - 'Generations'
 
 - Fixed the login window for macOS 10.11
