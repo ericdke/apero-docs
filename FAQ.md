@@ -133,9 +133,13 @@ When this option is on, deleted posts and messages are not visible in the timeli
 
 When this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will not be visible in the timeline.
 
-### Automatically save post draft
+### Automatically save draft
 
-Works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+When this option is on, canceling a new post, message, or a reply to a post or message you're writing persistently saves its content. This content is then automatically loaded back when you make the same action again. Limited to 10 items.
+
+### Clear saved drafts
+
+Clears all drafts from memory and from disk. The action is immediate.
 
 ### Memory cache limit
 
