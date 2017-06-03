@@ -85,6 +85,7 @@ Shortcuts:
 - swipe towards left on a post/message: quick hide (see the Objectionable Content chapter on this page)
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
 - right-click on a post/message for a contextual menu of the same options (and other when available, like reply and interactions)
+- swipe or right-click on a channel to open its messages
 
 ## Preferences
 
@@ -92,29 +93,61 @@ Changing colors takes effect immediately but you have to click "Save current the
 
 Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
 
-"Highlight posts mentioning you": when this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
+### Dark mode
 
-"Compact channels list": when this option is on, the channels list do not show any details such as the list of users and the last message.
+When this option is on, Apero's interface has white text and icons over dark windows. When this option is off (default), the interface has dark text and icons over white windows. This option is also triggered by the equivalent macOS System Preference. Changing mode relaunches the application.
 
-"Hijack patter.chat links in posts/messages": when this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+### Highlight posts mentioning you
 
-"Polling indicator is visible": when this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
+When this option is on, posts in Global or in Home are highlighted if they contain a mention of your username.
 
-"Localized date in timeline": when this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
+### Compact channels list
 
-"Include directed posts": when this option is on, the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
+When this option is on, the channels list do not show any details such as the list of users and the last message.
 
-"Timeline always sticks to top": when this option is on, the timeline always sticks to the top of the window if you're already there.
+### Polling indicator is visible
 
-"Hide deleted posts/messages": when this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
+When this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
 
-"Hide NSFW posts": when this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will not be visible in the timeline.
+### Timeline always sticks to top
 
-"Automatically save post draft": works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+When this option is on, the timeline always sticks to the top of the window if you're already there.
 
-"Memory cache limit": number of days (running time) between the images/gif memory cache cleaning cycles. Note that changing this option, even to set it again to the same value, automatically triggers the memory cache cleaning procedure.
+### Localized date in timeline
 
-"Disk cache limit": number of days (calendar time) between the images/gif disk cache cleaning cycle. Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.
+When this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
+
+### Hijack patter.chat links in posts/messages
+
+When this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+
+### Include directed posts
+
+When this option is on, the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
+
+### Hide deleted posts/messages
+
+When this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
+
+### Hide NSFW posts
+
+When this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will not be visible in the timeline.
+
+### Automatically save post draft
+
+Works but is still experimental. Will be rewritten in a future udpate. Only works for posts. When this option is on, canceling a new post you're writing persistently saves its content. This content is then automatically loaded back when you click "New post" again.
+
+### Memory cache limit
+
+Maximum cost in RAM of the images/gif cache system. The unit is in Megapixels. Depending of the images compression ratio and bit depth, the default cost of 500MP is usually around 250MB of jpg/png/gif cache in RAM. When the limit is hit, the biggest images in the cache are purged to let room for the new ones. Minimum: 250. No maximum - but more than 2000 would probably be useless.
+
+### Memory cache purge
+
+Number of days (running time) between the images/gif memory cache cleaning cycles. Note that changing this option, even to set it again to the same value, automatically triggers the memory cache cleaning procedure.
+
+### Disk cache purge
+
+Number of days (calendar time) between the images/gif disk cache cleaning cycle. Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.
 
 ## Support
 
