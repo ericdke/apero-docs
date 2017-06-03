@@ -4,7 +4,7 @@ Apero is available [on the Mac App Store.](https://itunes.apple.com/WebObjects/M
 
 ## What does "Apero" mean?
 
-Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! ;)
+Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! 😉
 
 ## Authorization and login
 
