@@ -1,11 +1,11 @@
-## 1.4.0 (10) - 2017-06-03 - 'Xenomorph'
+## 1.4.0 (10) - 2017-06-05 - 'Xenomorph'
 
 - New option: dark mode
 - Saving drafts now work for posts, replies and messages
 - Right-click or swipe on a channel to open it
 - New available fonts if installed on your system: Hack, Letter Gothic, Luminari, Optima
-- The "Search chat with user" box is no longer modal
-- Improved "About" window
+- "Edit name", "Edit description" and "Search chat with user" dialog boxes are no longer modal
+- Improved "About" window with custom art
 - Optimized image caching and memory management
 
 ## 1.3.2 (8) - 2017-05-12 - 'Generations'
