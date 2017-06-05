@@ -3,10 +3,13 @@
 - New option: dark mode
 - Saving drafts now work for posts, replies and messages
 - Right-click or swipe on a channel to open it
-- New available fonts if installed on your system: Hack, Letter Gothic, Luminari, Optima
+- The "About" window respects the app's theme and behavior and has custom title art
+- Image caching and memory management have been optimized and have more options
 - "Edit name", "Edit description" and "Search chat with user" dialog boxes are no longer modal
-- Improved "About" window with custom art
-- Optimized image caching and memory management
+- New available fonts: Hack, Letter Gothic, Luminari, Optima
+- Fixed: the login window could misbehave if Apero was relaunched several times in a row (issue with cookies)
+- Fixed: clicking in the Search window's text field could trigger a random color change in Preferences if the color panel was opened (rare)
+- Various improvements regarding speed and energy consumption (more computing in background threads, faster algorithms, less disk operations)
 
 ## 1.3.2 (8) - 2017-05-12 - 'Generations'
 
