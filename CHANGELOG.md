@@ -1,4 +1,4 @@
-## 1.4.0 (10) - 2017-06-05 - 'Xenomorph'
+## 1.4.0 (10) - 2017-06-06 - 'Xenomorph'
 
 - New option: dark mode
 - Saving drafts now work for posts, replies and messages
@@ -7,6 +7,7 @@
 - Image caching and memory management have been optimized and have more options
 - "Edit name", "Edit description" and "Search chat with user" dialog boxes are no longer modal
 - New available fonts: Hack, Letter Gothic, Luminari, Optima
+- Better rendering of fonts for non-Retina screens (probably for Retina too, but not verified)
 - Fixed: the login window could misbehave if Apero was relaunched several times in a row (issue with cookies)
 - Fixed: clicking in the Search window's text field could trigger a random color change in Preferences if the color panel was opened (rare)
 - Various improvements regarding speed and energy consumption (more computing in background threads, faster algorithms, less disk operations)
