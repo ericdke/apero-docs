@@ -2,16 +2,16 @@
 
 - New option: dark mode
 - Saving drafts now work for posts, replies and messages
-- Right-click or swipe on a channel to open it
-- The "About" window respects the app's theme and behavior and has custom title art
-- Image caching and memory management have been optimized and have more options
-- "Edit name", "Edit description" and "Search chat with user" dialog boxes are no longer modal
 - New available fonts: Hack, Letter Gothic, Luminari, Optima
-- Better rendering of fonts for non-Retina screens (probably for Retina too, but not verified)
-- Various improvements regarding speed and energy consumption (more computing in background threads, faster algorithms, less disk operations)
+- Better rendering of fonts in the timelines
+- Optimized image caching and memory management
+- Edit Name, Edit Description and Search Chat With User dialog boxes are no longer modal
+- The "About" window respects the app's theme and behavior and has custom title art
 - Fixed: login window behavior if Apero was relaunched several times in a row (issue related to cookies)
 - Fixed: where older messages sometimes could not load after scrolling to the bottom of a chat
 - Fixed: where clicking in the Search window's text field could trigger a color change in Preferences (issue related to the persistent color panel)
+- Right-click or swipe on a channel to open it (alternatives to the usual double-click)
+- General improvements (more background threads, more GPU acceleration, faster algorithms, smaller memory footprint)
 
 ## 1.3.2 (8) - 2017-05-12 - 'Generations'
 
