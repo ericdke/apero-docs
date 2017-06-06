@@ -8,9 +8,10 @@
 - "Edit name", "Edit description" and "Search chat with user" dialog boxes are no longer modal
 - New available fonts: Hack, Letter Gothic, Luminari, Optima
 - Better rendering of fonts for non-Retina screens (probably for Retina too, but not verified)
-- Fixed: the login window could misbehave if Apero was relaunched several times in a row (issue with cookies)
-- Fixed: clicking in the Search window's text field could trigger a random color change in Preferences if the color panel was opened (rare)
 - Various improvements regarding speed and energy consumption (more computing in background threads, faster algorithms, less disk operations)
+- Fixed: login window behavior if Apero was relaunched several times in a row (issue related to cookies)
+- Fixed: where older messages sometimes could not load after scrolling to the bottom of a chat
+- Fixed: where clicking in the Search window's text field could trigger a color change in Preferences (issue related to the persistent color panel)
 
 ## 1.3.2 (8) - 2017-05-12 - 'Generations'
 
