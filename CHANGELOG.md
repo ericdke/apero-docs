@@ -1,3 +1,12 @@
+## 1.4.1 (11) = 2017-06-12 - 'Vatanen'
+
+- Fixed: lag when scrolling the timelines. It's now blazing fast!
+- New: menus and shortcuts to change the font size and to switch UI mode
+- Fixed: blurry text in the Interactions window
+- Fixed: get Interactions for a reposted post
+- Fixed: vertically resizing the followers/followings windows
+- Fixed: height of description text in profile window for logged-in user
+
 ## 1.4.0 (10) - 2017-06-06 - 'Xenomorph'
 
 - New option: dark mode
