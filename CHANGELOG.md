@@ -1,4 +1,4 @@
-## 1.4.1 (11) = 2017-06-12 - 'Vatanen'
+## 1.4.1 (11) - 2017-06-12 - 'Vatanen'
 
 - Fixed: lag when scrolling the timelines. It's now blazing fast!
 - New: menus and shortcuts to change the font size and to switch UI mode
