@@ -79,6 +79,10 @@ Shortcuts:
  - search chat with user: CMD+O
  - preferences: CMD+,
  - recall main window: ALT+CMD+0
+ - bigger font size: CMD++
+ - smaller font size: CMD+-
+ - switch Dark Mode: SHIFT+CMD+D
+ - compact channels list: SHIFT+CMD+K
 
 ## Contextual menu and gestures
 
@@ -86,6 +90,10 @@ Shortcuts:
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
 - right-click on a post/message for a contextual menu of the same options (and other when available, like reply and interactions)
 - swipe or right-click on a channel to open its messages
+
+## Touch Bar
+
+Apero fully supports Macbook Pro with TouchBar. Most actions and preferences are accessible via dedicated customizable touchbars.
 
 ## Preferences
 
@@ -95,7 +103,11 @@ Available fonts are curated to be compatible with Apero and their number is very
 
 ### Dark mode
 
-When this option is on, Apero's interface has white text and icons over dark windows. When this option is off (default), the interface has dark text and icons over white windows. This option is also triggered by the equivalent macOS System Preference. Changing mode relaunches the application.
+When this option is on, Apero's interface has white text and icons over dark windows. When this option is off (default), the interface has dark text and icons over white windows. Changing mode relaunches the application.
+
+### Monitor system changes
+
+When this option is on (default), Apero will comply to system-wide changes regarding the Dark Mode setting. These changes can be caused by macOS or by applications such as "F.lux".
 
 ### Highlight posts mentioning you
 

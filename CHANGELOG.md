@@ -1,3 +1,8 @@
+## 1.4.2 (12) - 2017-06-24 - 'Beluga'
+
+- New: Macbook Pro Touch Bar support
+- Added an option to ignore system-wide Dark Mode changes
+
 ## 1.4.1 (11) - 2017-06-12 - 'Vatanen'
 
 - Fixed: lag when scrolling the timelines. It's now blazing fast!
