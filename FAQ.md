@@ -33,7 +33,8 @@ Authorize Apero to access your pnut.io account:
 ## Windows with posts and messages
 
 - at launch, when possible, the main window automatically jumps to the last post you've seen
-- the main window then automatically polls new posts for Global, Home, Mentions (same for the Messages windows)
+- the main window then automatically polls new posts for Global, Home, Mentions 
+- Messages windows also poll for new messages
 - the other "posts windows" (threads, user posts, bookmarks, explore streams...) do not automatically poll new posts
 - all windows automatically load more older items when the user has scrolled to the bottom of the timeline/list
 - click on a username/avatar or @mention to get the user profile
@@ -66,6 +67,10 @@ Shortcuts:
  - interactions: CMD+I
  - new post: CMD+N
  - new PM: CMD+M
+ - select next stream: TAB
+ - global stream: CMD+1
+ - home stream: CMD+2
+ - mentions stream: CMD+3
  - all channels: ALT+CMD+1
  - messages (PMs): ALT+CMD+2
  - chatrooms: ALT+CMD+3
@@ -79,6 +84,7 @@ Shortcuts:
  - search chat with user: CMD+O
  - preferences: CMD+,
  - recall main window: ALT+CMD+0
+ - cycle between opened windows: CMD+`
  - bigger font size: CMD++
  - smaller font size: CMD+-
  - switch Dark Mode: SHIFT+CMD+D
@@ -97,9 +103,21 @@ Apero fully supports Macbook Pro with TouchBar. Most actions and preferences are
 
 ## Preferences
 
-Changing colors takes effect immediately but you have to click "Save current theme" in order to persist the theme between launches.
-
 Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
+
+### Themes
+
+You can modify Apero's colors!
+
+To achieve this, you may "just" change the colors, or you may load/create a theme.
+
+"Just" changing colors takes effect immediately but you have to click "Just save current colors" in order to persist the changes between launches.
+
+You can otherwise save the set of colors as a theme, giving it a title: it will be added to the list of available themes, and recalled at each launch.
+
+If you modify a theme, you can "just save the current colors" or decide to save as a new theme after the changes.
+
+There's also a set of default themes to choose from.
 
 ### Dark mode
 
@@ -164,6 +182,42 @@ Number of days (running time) between the images/gif memory cache cleaning cycle
 ### Disk cache purge
 
 Number of days (calendar time) between the images/gif disk cache cleaning cycle. Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.
+
+### Cursor position when replying
+
+When replying to a post or a message and there's several mentions, Apero can insert the text cursor just after the leading mention, or after all the mentions.
+
+### Leading and trailing swipe actions
+
+You can assign the actions availables in the context menus to swipe actions on posts and messages: copy, hide, reply, translate, interactions.
+
+### Translation engine
+
+Apero can use Google Translate or Yandex Translate to translate posts and messages.
+
+Google Translate has excellent performances, but has limitations: it cannot detect non-latin languages when doing in-app tranlsation (works only with translation in browser, they have to be specified for in-app), and the total number of languages available is rather small.
+
+Yandex Translate has a great number of languages available and does detect non-latin languages rather well, but the combinations of source-target translations is limited: the presence of language A and language B in the list does not guarantee that Yandex will be able to translate from A to B.
+
+When a language is selected but the translate engine cannot use it, Apero will default to "Automatic" (detection) for source, and English for target.
+
+Also keep in mind that sometimes the @mentions, #tags and links in the text can confuse the language detector. If there's an error or results make no sense, try switching automatic/manual or using the other engine.
+
+### Translation happens in...
+
+Translation can happen in Apero or in browser. When happening "in Apero", the current text displayed for the post or message is replaced by its translation (click or swipe once again to get the menu to show back the original post). But if there's an error or the service is not available, Apero will instead open the translation in a browser.
+
+### Translation languages
+
+The "Follow preferences" setting tells Apero that you want to translate directly using the source and target settings, without having to choose each time in a dialog box. Whereas the "Always ask" setting tells Apero that you always want to choose languages manually before translating.
+
+### Translation source
+
+The "Automatic" setting means that the translation engine will try to autodetect the source language. You may otherwise choose one of the listed languages as the default.
+
+### Translation target
+
+The language the post or message will be translated to.
 
 ## Support
 

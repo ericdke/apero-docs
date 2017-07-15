@@ -1,3 +1,14 @@
+## 1.5.0 (13) - 2017-07-15 - 'Apocalypse, baby'
+
+- New: icons instead of text for Global, Home, Mentions, New post, New message, and Refresh List.
+- New: translate a post in Apero or in browser! Automatic language detection or manual selection.
+- New: themes! Save and recall your custom set of colors for Apero's interface. Includes a list of default themes.
+- New: all right-click actions are now available for swipe actions. Select your favorite ones in Preferences.
+- New: when replying, Apero can insert the text cursor after the leading mention or after all mentions (default: after leading).
+- The Preferences window now uses tabs to separate categories (Theme, Interface, Streams, Other).
+- The username completion popup now uses the same theme (dark/light) as the other windows.
+- Writing boxes are now uniques. A new writing box cannot be created if the existing one is still opened.
+
 ## 1.4.2 (12) - 2017-06-24 - 'Beluga'
 
 - New: Macbook Pro Touch Bar support
