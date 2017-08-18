@@ -1,13 +1,23 @@
-## 1.5.0 (13) - 2017-07-15 - 'Apocalypse, baby'
+## 1.5.0 (13) - 2017-08-18 (waiting for approval) - 'Apocalypse, baby'
 
-- New: icons instead of text for Global, Home, Mentions, New post, New message, and Refresh List.
-- New: translate a post in Apero or in browser! Automatic language detection or manual selection.
-- New: themes! Save and recall your custom set of colors for Apero's interface. Includes a list of default themes.
-- New: all right-click actions are now available for swipe actions. Select your favorite ones in Preferences.
-- New: when replying, Apero can insert the text cursor after the leading mention or after all mentions (default: after leading).
+- Image upload! You can now use your pnut.io storage to upload images and gifs in your posts and messages with Apero.
+- Translate! a post in Apero or in browser. Automatic language detection or manual selection.
+- Icons! instead of text for these buttons: Global, Home, Mentions, New post, New message, Refresh List.
+- Themes! Save and recall your custom set of colors for Apero's interface. Includes a list of default themes.
+- When replying, Apero can now insert the text cursor after the leading mention or after all mentions (default: after leading).
+- Most right-click actions are now also available for swipe actions. Select your favorite ones in Preferences.
 - The Preferences window now uses tabs to separate categories (Theme, Interface, Streams, Other).
+- The Interactions window now polls for new items regularly.
 - The username completion popup now uses the same theme (dark/light) as the other windows.
-- Writing boxes are now uniques. A new writing box cannot be created if the existing one is still opened.
+- No duplicate writing boxes. Apero enforces that a new writing box cannot be created if the existing one is still opened.
+- The pnut.io login page has been simplified and Apero's login window has been adapted to the new layout.
+- Added accessibility labels for most of the app controls.
+- Added an "open image" item in the context menu when the message/post has an image. Alternative to double-click.
+- Fixed: in some cases, GIFs could fail to be released from memory when closing a window.
+- Fixed: a user profile could be downloaded twice instead of once when clicking on a mention.
+- Fixed: control-click wasn't available as a replacement for right-click to call the context menu.
+- Fixed: the avatar tooltip doesn't show the follow status anymore if the user is yourself.
+- Fixed: disabling "Timeline sticks to top" still sticked the timeline to top for some users.
 
 ## 1.4.2 (12) - 2017-06-24 - 'Beluga'
 

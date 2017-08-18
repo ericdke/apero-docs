@@ -1,16 +1,26 @@
-Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12 recommended). You must have a pnut.io account in order to use Apero.
+Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12+ recommended). 
 
-Apero is available [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
+*You must have a pnut.io account in order to use Apero.*
 
-## What does "Apero" mean?
+Apero is available exclusively [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
 
-Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! 😉
+Pnut.io is a free, but invite-only, short-messaging social network.
+
+All pnut.io users are able to send invitations. You may also get one from pnut.io by contacting them.
+
+From [the site](https://pnut.io):
+
+> Our community network is small and sustainable. We are tied closely to our users and developers through their donations and optional pay-what-you-want features. When you invite someone, they are associated with you in the user tree. The API encourages a high level of transparency and control. You will need a third-party app to do even the simplest things, but there are plenty of options; from Android and iOS to command line and Blackberry.
+
+...and macOS with Apero!
+
+What does "Apero" mean, by the way? Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! 😉
 
 ## Authorization and login
 
 Authorize Apero to access your pnut.io account:
 
-- launch Apero, enter your pnut.io login and password, confirm, then pnut.io will safely send back an authorization token
+- launch Apero, enter your pnut.io login and password, confirm usage of listed features, then pnut.io will safely send back an authorization token to Apero
 - Apero will then safely save this token in the macOS Keychain for future usage, then will use it to log you in the pnut network
 - successive launches of Apero will automatically log you again in the same account, unless you log out before quitting the app
 
@@ -24,38 +34,52 @@ Authorize Apero to access your pnut.io account:
 - username autocompletion when writing a post/message
 - there's a 5 minute window to edit typos in a post (only once, and with restrictions - this is only a convenience feature)
 - you can delete any of your posts or messages at any time
-- support for posting oembed images is experimental and uses free services, may fallback to just include the image link in the post if said services decline or are unavailable
-- uploading images to your own pnut.io account and posting them as oembed will be available at a future date, when pnut.io opens the feature
+- post images (see next paragraph)
 - shortcuts: 
 	- main/posts windows: ESC to close the window, CMD+N to make a new post
 	- compose window: ESC to cancel and close the compose window, CMD+RETURN to immediately post
+
+*Note: if you don't have any subscribed channels yet, here's a few examples to subscribe to: 617 ("tests"), 18 ("developers"), 207 ("coffee lovers")... You can also send messages (PMs) to users, which automatically subscribes you to the newly created private channel.*
+
+## Posting with images
+
+Posting images works everywhere: in new posts, new messages, replies to posts, replies to messages, chatrooms...
+
+If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero for uploading images to your pnut account and inserting them in your posts and messages.
+
+Wether you're subscribed to this feature or not, you can always embed an existing URL pointing to an image on the web (it has to directly point to the image online, not to a web page).
+
+*Note: it is necessary to accept the new conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login after a logout.*
 
 ## Windows with posts and messages
 
 - at launch, when possible, the main window automatically jumps to the last post you've seen
 - the main window then automatically polls new posts for Global, Home, Mentions 
-- Messages windows also poll for new messages
-- the other "posts windows" (threads, user posts, bookmarks, explore streams...) do not automatically poll new posts
-- all windows automatically load more older items when the user has scrolled to the bottom of the timeline/list
+- Messages windows and the Interactions window also poll for new messages
+- the other "posts windows" (threads, user posts, bookmarks, explore streams) do not automatically poll new posts
+- most windows automatically load more older items when the user has scrolled to the bottom of the timeline/list
 - click on a username/avatar or @mention to get the user profile
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link to open it in your browser
-- double click on an image to open it in your browser
 - images and gifs are displayed inline in posts and messages
-- click on a gif to pause/play
-- Apero can read the special long posts made by ChimPnut, the iOS client, but can not post them
+- double click on an image to open it in your browser
+- click once on a gif to pause/play
+- Apero can read the special long posts made by ChimPnut, the iOS client
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
+- right-click on a post or message to get a context menu of actions: reply, copy, hide, translate, interactions...
+- swipe left or right on a post or message to get contextual actions (set your favorite ones in Preferences)
 - shortcuts:
 	- main window: CMD+1 for Global, CMD+2 for Home, CMD+3 for Mentions
 	- channels list window: CMD+R to refresh
-	- if a messages window is active: CMD+P to compose a new PM
+	- if a messages window is active: CMD+P to compose a new PM (supersedes the main CMD+P profile shortcut)
 
 ## Profile
 
 - detailed informations about the user
-- update your pnut.io profile information: name, description, avatar image, cover image...
 - follow and unfollow, mute and unmute, block and unblock users
-- see the user's followers/followings, posts and bookmarks
+- see the user's followers, followings, posts and bookmarks
+- update your pnut.io profile information: name, description, avatar image, cover image...
+- if you're subscribed to pnut.io storage: manage your pnut.io files (list, delete, change name, change public status) and see your available storage
 - write a PM to this user
 - write a post mentioning this user
 
@@ -63,51 +87,49 @@ Authorize Apero to access your pnut.io account:
 
 Shortcuts:
 
- - profile: CMD+P
- - interactions: CMD+I
- - new post: CMD+N
- - new PM: CMD+M
- - select next stream: TAB
- - global stream: CMD+1
- - home stream: CMD+2
- - mentions stream: CMD+3
- - all channels: ALT+CMD+1
- - messages (PMs): ALT+CMD+2
- - chatrooms: ALT+CMD+3
- - other: ALT+CMD+4
- - explore conversations: SHIFT+CMD+1
- - explore posts with photos: SHIFT+CMD+2
- - explore trending posts: SHIFT+CMD+3
- - explore lonely posts: SHIFT+CMD+4
- - search hashtag: CMD+T
- - search user: CMD+U
- - search chat with user: CMD+O
- - preferences: CMD+,
- - recall main window: ALT+CMD+0
- - cycle between opened windows: CMD+`
- - bigger font size: CMD++
- - smaller font size: CMD+-
- - switch Dark Mode: SHIFT+CMD+D
- - compact channels list: SHIFT+CMD+K
+ - select next stream: `TAB`
+ - profile: CMD + P
+ - interactions: CMD + I
+ - new post: CMD + N
+ - new message: CMD + M
+ - global stream: CMD + 1
+ - home stream: CMD + 2
+ - mentions stream: CMD + 3
+ - all channels: ALT + CMD + 1
+ - messages (PMs): ALT + CMD + 2
+ - chatrooms: ALT + CMD + 3
+ - other: ALT + CMD + 4
+ - explore conversations: SHIFT + CMD + 1
+ - explore posts with photos: SHIFT + CMD + 2
+ - explore trending posts: SHIFT + CMD + 3
+ - explore lonely posts: SHIFT + CMD + 4
+ - search hashtag: CMD + T
+ - search user: CMD + U
+ - search chat with user: CMD + O
+ - preferences: CMD + `,`
+ - recall main window: ALT + CMD + 0
+ - cycle between opened windows: CMD + `\``
+ - bigger font size: CMD + `+` 
+ - smaller font size: CMD + `-`
+ - switch Dark Mode: SHIFT + CMD + D
+ - compact channels list: SHIFT + CMD + K
 
 ## Contextual menu and gestures
 
 - swipe towards left on a post/message: quick hide (see the Objectionable Content chapter on this page)
 - swipe towards right on a post/message: copy a digest of its content to the clipboard
-- right-click on a post/message for a contextual menu of the same options (and other when available, like reply and interactions)
+- right-click on a post/message for a contextual menu of the same options
 - swipe or right-click on a channel to open its messages
 
 ## Touch Bar
 
-Apero fully supports Macbook Pro with TouchBar. Most actions and preferences are accessible via dedicated customizable touchbars.
+Apero fully supports Macbook Pro with TouchBar. Many actions and preferences are accessible via dedicated customizable touchbars.
 
 ## Preferences
 
-Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
-
 ### Themes
 
-You can modify Apero's colors!
+You can modify Apero's colors.
 
 To achieve this, you may "just" change the colors, or you may load/create a theme.
 
@@ -121,11 +143,19 @@ There's also a set of default themes to choose from.
 
 ### Dark mode
 
-When this option is on, Apero's interface has white text and icons over dark windows. When this option is off (default), the interface has dark text and icons over white windows. Changing mode relaunches the application.
+When this option is on, Apero uses dark windows. When this option is off (default), Apero uses white windows. Changing mode relaunches the application.
+
+### Fonts
+
+Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
 
 ### Monitor system changes
 
 When this option is on (default), Apero will comply to system-wide changes regarding the Dark Mode setting. These changes can be caused by macOS or by applications such as "F.lux".
+
+### Enable animations
+
+When this option is off, Apero will minimize its use of animations (for now, only targets the transition animation between streams).
 
 ### Highlight posts mentioning you
 
@@ -139,9 +169,11 @@ When this option is on, the channels list do not show any details such as the li
 
 When this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
 
-### Timeline always sticks to top
+### Timeline sticks to top
 
-When this option is on, the timeline always sticks to the top of the window if you're already there.
+When this option is on (default, recommended), the timeline always sticks to the top of the window if you're already there, and continues to download new posts automatically.
+
+When this option is off, the timeline doesn't stick to top at all and instead shows an icon when new posts are available - then stops downloading new posts if you don't scroll to top. It starts downloading again once you are at the top.
 
 ### Localized date in timeline
 
@@ -195,7 +227,7 @@ You can assign the actions availables in the context menus to swipe actions on p
 
 Apero can use Google Translate or Yandex Translate to translate posts and messages.
 
-Google Translate has excellent performances, but has limitations: it cannot detect non-latin languages when doing in-app tranlsation (works only with translation in browser, they have to be specified for in-app), and the total number of languages available is rather small.
+Google Translate has excellent performances, but has limitations: it cannot detect non-latin languages when doing in-app translation (it works only with translation in browser, the languages have to be specified for in-app), and the total number of languages available is rather small.
 
 Yandex Translate has a great number of languages available and does detect non-latin languages rather well, but the combinations of source-target translations is limited: the presence of language A and language B in the list does not guarantee that Yandex will be able to translate from A to B.
 
@@ -205,7 +237,7 @@ Also keep in mind that sometimes the @mentions, #tags and links in the text can 
 
 ### Translation happens in...
 
-Translation can happen in Apero or in browser. When happening "in Apero", the current text displayed for the post or message is replaced by its translation (click or swipe once again to get the menu to show back the original post). But if there's an error or the service is not available, Apero will instead open the translation in a browser.
+Translation can happen in Apero or in browser. When happening "in Apero", the current text displayed for the post or message is replaced by its translation (right-click or swipe once again to show back the original post). But if there's an error or the service is not available, Apero will instead open the translation in a browser.
 
 ### Translation languages
 
