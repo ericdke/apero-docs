@@ -108,7 +108,7 @@ Shortcuts:
  - search chat with user: CMD + O
  - preferences: CMD + `,`
  - recall main window: ALT + CMD + 0
- - cycle between opened windows: CMD + `\``
+ - cycle between opened windows: CMD + `
  - bigger font size: CMD + `+` 
  - smaller font size: CMD + `-`
  - switch Dark Mode: SHIFT + CMD + D
