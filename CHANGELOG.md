@@ -1,4 +1,4 @@
-## 1.5.0 (14) - 2017-08-20 (WAITING FOR APPROVAL) - 'Apocalypse, baby'
+## 1.5.0 (14) - 2017-08-21 - 'Apocalypse, baby'
 
 - Image upload! You can now use your pnut.io storage to upload images and gifs in your posts and messages with Apero.
 - Translate! a post in Apero or in browser. Automatic language detection or manual selection.
