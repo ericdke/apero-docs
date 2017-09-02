@@ -1,3 +1,34 @@
+## 1.6.0 (16) - 2017-09-02 - 'The Dance Of The Bees'
+
+### New feature: search! 
+
+- Search for posts
+
+From the "Search" menu. Example: "apple" will find all posts containing the word "apple". Or "apple mac" to find all posts containing the word "apple" *and* the word "mac".
+
+- Search for posts by a user
+ 
+From a user profile, search keyword(s) which will only show posts created by this user. Also accessible via right-click (context menu) on posts lists and users lists.
+
+- Search for messages in a channel
+
+From an opened channel, righ-click on a message and select "search" in the context menu to search for messages with keywords in this channel. 
+
+- Search for users
+ 
+From the "Search" menu. Example: "pnut" will find all users whose description *or* name contains the word "pnut".
+
+### Other updates
+
+- Added a new option: open posts.pnut.io links in Apero. If a post or message contains a link like "https://posts.pnut.io/postnumber" or "posts.pnut.io/postnumber" and the option is on, the post will be opened directly in Apero (if the option is off, the link will be opened in a browser as usual).
+- Added a right-click/control-click context menu in users list to open the user profile (in addition to the existing double-click method).
+- Fixed: the title bar of the users list windows was not the same as other windows.
+- Fixed: subscribing to a channel could previously fail to open the channel window when the subscription was successful if subscribing right after launching.
+- Fixed: unsubscribing from a channel didn't show if the operation was successful.
+- Fixed: some text input windows could fail to be closed properly in some rare cases.
+- Fixed: opening some patter links in-app could sometimes bring up the subscription dialog even if the user was already subscribed to the channel.
+- Fixed: the value of the polling interval for messages was not always saved from Preferences.
+
 ## 1.5.1 (15) - 2017-08-22 - 'Technicolor'
 
 - Fixed the inactive color panels in Preferences

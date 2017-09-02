@@ -83,9 +83,29 @@ Wether you're subscribed to this feature or not, you can always embed an existin
 - write a PM to this user
 - write a post mentioning this user
 
-## Menus
+## Search menu
 
-Shortcuts:
+### User by username
+
+Enter a username and Apero will open their profile.
+
+### User by keywords
+
+Enter keyword(s) to search for a user in their comeplete name or their description.
+
+### Chat with user
+
+Enter a username and Apero will open an existing PM channel with this user if there's one. If not, you will be prompted for action.
+
+### Posts with tag(s)
+
+Enter tag(s) to search for posts containing this/these tag(s).
+
+### Posts by keyword(s)
+
+Enter keyword(s) to search for posts containing this/these keyword(s).
+
+## Shortcuts
 
  - select next stream: `TAB`
  - profile: CMD + P
@@ -104,8 +124,10 @@ Shortcuts:
  - explore trending posts: SHIFT + CMD + 3
  - explore lonely posts: SHIFT + CMD + 4
  - search hashtag: CMD + T
- - search user: CMD + U
+ - search username: CMD + U
+ - search user by name or description: CTRL + CMD + U
  - search chat with user: CMD + O
+ - search posts using keywords: CTRL + CMD + P
  - preferences: CMD + `,`
  - recall main window: ALT + CMD + 0
  - cycle between opened windows: CMD + `
@@ -124,6 +146,20 @@ Shortcuts:
 ## Touch Bar
 
 Apero fully supports Macbook Pro with TouchBar. Many actions and preferences are accessible via dedicated customizable touchbars.
+
+## URL Scheme
+
+Apero has two actions available via URL Scheme: new post and new message.
+
+New post: use "apero://post=your text" to open a new post window prefilled with text. Example in the terminal with the "open" command: 
+
+    $ open "apero://post=Hello from Apero"
+
+New message: use "apero://message:@target_user=your text" to open a new message window prefilled with text. Example in the terminal with the "open" command:
+
+    $ open "apero://message:@ericd=Hello from Apero"
+
+*Tip: you can then send the post/message with CMD+ENTER or cancel with ESC.*
 
 ## Preferences
 
@@ -179,9 +215,13 @@ When this option is off, the timeline doesn't stick to top at all and instead sh
 
 When this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
 
-### Hijack patter.chat links in posts/messages
+### Open patter.chat links in Apero
 
 When this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+
+### Open posts.pnut.io links in Apero
+
+When this option is on, clicking on a "posts.pnut.io" link in Apero will try to open the post in Apero itself. When this option is off, Apero will open the link in a browser.
 
 ### Include directed posts
 
