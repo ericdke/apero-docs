@@ -16,56 +16,6 @@ From [the site](https://pnut.io):
 
 What does "Apero" mean, by the way? Is it like "apéro" in French? Or maybe "app hero"? Ah, "happy row"? Mm, "opera" pronounced by a peanut? Go figure... and go "Apero"! 😉
 
-## Table of Contents
-
-  * [Authorization and login](#authorization-and-login)
-  * [Posting](#posting)
-  * [Posting with images](#posting-with-images)
-  * [Windows with posts and messages](#windows-with-posts-and-messages)
-  * [Profile](#profile)
-  * [Search menu](#search-menu)
-     * [User by username](#user-by-username)
-     * [User by keywords](#user-by-keywords)
-     * [Chat with user](#chat-with-user)
-     * [Posts with tag(s)](#posts-with-tags)
-     * [Posts by keyword(s)](#posts-by-keywords)
-  * [Shortcuts](#shortcuts)
-  * [Contextual menu and gestures](#contextual-menu-and-gestures)
-  * [Touch Bar](#touch-bar)
-  * [URL Scheme](#url-scheme)
-  * [Preferences](#preferences)
-     * [Themes](#themes)
-     * [Dark mode](#dark-mode)
-     * [Fonts](#fonts)
-     * [Monitor system changes](#monitor-system-changes)
-     * [Enable animations](#enable-animations)
-     * [Highlight posts mentioning you](#highlight-posts-mentioning-you)
-     * [Compact channels list](#compact-channels-list)
-     * [Polling indicator is visible](#polling-indicator-is-visible)
-     * [Timeline sticks to top](#timeline-sticks-to-top)
-     * [Localized date in timeline](#localized-date-in-timeline)
-     * [Open patter.chat links in Apero](#open-patterchat-links-in-apero)
-     * [Open posts.pnut.io links in Apero](#open-postspnutio-links-in-apero)
-     * [Include directed posts](#include-directed-posts)
-     * [Hide deleted posts/messages](#hide-deleted-postsmessages)
-     * [Hide NSFW posts](#hide-nsfw-posts)
-     * [Automatically save draft](#automatically-save-draft)
-     * [Clear saved drafts](#clear-saved-drafts)
-     * [Memory cache limit](#memory-cache-limit)
-     * [Memory cache purge](#memory-cache-purge)
-     * [Disk cache purge](#disk-cache-purge)
-     * [Cursor position when replying](#cursor-position-when-replying)
-     * [Leading and trailing swipe actions](#leading-and-trailing-swipe-actions)
-     * [Translation engine](#translation-engine)
-     * [Translation happens in...](#translation-happens-in)
-     * [Translation languages](#translation-languages)
-     * [Translation source](#translation-source)
-     * [Translation target](#translation-target)
-  * [Support](#support)
-  * [Features and availability](#features-and-availability)
-  * [Privacy](#privacy)
-  * [Objectionable Content](#objectionable-content)
-
 ## Authorization and login
 
 Authorize Apero to access your pnut.io account:
@@ -101,6 +51,10 @@ Wether you're subscribed to this feature or not, you can always embed an existin
 
 *Note: it is necessary to accept the new conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login after a logout.*
 
+## Sharing/exporting files
+
+If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero to share your files with a public link. You can also use this window, accessible via an icon in the file manager in your Profile, to download the file locally or to create a new post or message with the link already embedded.
+
 ## Windows with posts and messages
 
 - at launch, when possible, the main window automatically jumps to the last post you've seen
@@ -108,6 +62,7 @@ Wether you're subscribed to this feature or not, you can always embed an existin
 - Messages windows and the Interactions window also poll for new messages
 - the other "posts windows" (threads, user posts, bookmarks, explore streams) do not automatically poll new posts
 - most windows automatically load more older items when the user has scrolled to the bottom of the timeline/list
+- if you delete or edit with another client, Apero will reflect the changes in its windows
 - click on a username/avatar or @mention to get the user profile
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link to open it in your browser
@@ -155,7 +110,7 @@ Enter tag(s) to search for posts containing this/these tag(s).
 
 Enter keyword(s) to search for posts containing this/these keyword(s).
 
-## Shortcuts
+## Shortcuts and keyboard actions
 
  - select next stream: `TAB`
  - profile: CMD + P
@@ -185,6 +140,12 @@ Enter keyword(s) to search for posts containing this/these keyword(s).
  - smaller font size: CMD + `-`
  - switch Dark Mode: SHIFT + CMD + D
  - compact channels list: SHIFT + CMD + K
+
+You can cycle through buttons in the Profile window with TAB and activate the current selection with SPACE.
+Using TAB in the Preferences window cycles through the preferences tabs.
+Using TAB in the main streams window cycles through the streams.
+Hitting TAB once in other posts/messages windows+ focuses on the list, allowing selection of cells with keyboard.
+Clicking once in the text body of a post/message also focuses on the list and selects the cell (see Manual posts/messages selection).
 
 ## Contextual menu and gestures
 
@@ -265,6 +226,10 @@ When this option is off, the timeline doesn't stick to top at all and instead sh
 
 When this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
 
+### Show verified icon
+
+When this option is on, an icon is displayed in timelines next to the avatar of "verified" users. (This icon is also always visible in the Profile window).
+
 ### Open patter.chat links in Apero
 
 When this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
@@ -277,9 +242,37 @@ When this option is on, clicking on a "posts.pnut.io" link in Apero will try to 
 
 When this option is on, the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
 
-### Hide deleted posts/messages
+### Manual post/message selection 
 
-When this option is on, deleted posts and messages are not visible in the timeline. When this option is off, deleted posts and messages are displayed but have no content - the intent is that if the post or message is part of a thread, you can still access the thread from the deleted posts/message.
+When the option is on (default: off), the selected post/message is visible and these keyboard shorcuts are available:
+
+    - for posts:
+
+    	p = profile
+    	r = reply
+    	o = open image (if any)
+    	SHIFT + o = repost
+    	s = search user's posts
+    	SHIFT + s = star (bookmark) post
+    	t = thread (if any)
+    	SHIFT + t = translate
+    	e = edit (if applicable)
+    	SHIFT + d = delete (if applicable)
+    	h = hide
+    	c = copy content
+    	a = view the post's actions (if any)
+
+    - for messages: 
+
+    	p = profile
+		r = reply
+		o = open image (if any)
+		s = search messages in channel
+		t = thread (if any)
+		SHIFT + t = translate
+		SHIFT + d = delete (if applicable)
+		h = hide
+		c = copy content
 
 ### Hide NSFW posts
 

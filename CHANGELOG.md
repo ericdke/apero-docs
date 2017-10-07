@@ -1,3 +1,46 @@
+## 1.7.0 (19) - 2017-10-07 (WAITING FOR APPROVAL) - 'Wolfen'
+
+New:
+
+- Dynamic timelines!
+
+If you delete or edit a post with another client, Apero will reflect the changes in its windows!
+
+Delete a post with ChimPnut, and Apero also removes it. Edit a post with Broadsword, and Apero updates the content of the post in its timeline! Dynamic deletion also applies to PMs and channel messages.
+
+- Share/download a file from your pnut storage! 
+
+Get a short link, embed in a post/message or save to local disk.
+
+- Show "verified" icon. In posts/messages next to the avatar (option, default: on) and in Profile.
+
+- You can now cycle through buttons in the Profile window with TAB and activate the current selection with SPACE.
+- Using TAB in the Preferences window cycles through the preferences tabs.
+- Using TAB in the main streams window cycles through the streams.
+- Hitting TAB once in other posts/messages windows+ focuses on the list, allowing selection of cells with keyboard.
+- Clicking once in the text body of a post/message also focuses on the list and selects the cell.
+
+- There's an option in Preferences to highlight the post/message selection (default: off), which also enables lots of new keyboard shortcuts for the selected item (see details in the FAQ).
+
+- The Interactions window now groups users who made the same action simultaneously (example: users @a and @b reposted the same post at the same time).
+
+- The "Hide deleted posts/messages" option has been removed (deleted posts/messages are now always really deleted from local memory).
+
+Other improvements and fixes:
+
+- If you post with another client, your post will be also editable in Apero.
+- The "Message to..." window now resizes vertically like the other "New post" and "New message" windows.
+- The "Open image" context menu now also shows-up for non-oembed images (simple links).
+- Better error handling if the pnut.io server disconnects while Apero is running. Also improved handling of network related issues in general.
+- Better handling of GIFs in posts when the user has clicked on the image to enable/disable the animation.
+- Fixed an issue where the autocompletion for usernames could fail because of complex Unicode characters in the text.
+- Fixed a bug where the Interactions window could crash the app if closed while loading data.
+- Opening Patter links in Apero now also works with short URLs.
+- Better support for d.pr images in the timeline (using direct url when available).
+- The pnut files manager now downloads more older files when scrolling to the bottom, if available.
+- Fixed an animation error when scrolling to last post seen at launch which could cause avatars of two adjacent users to be swapped.
+
+
 ## 1.6.0 (16) - 2017-09-02 - 'The Dance Of The Bees'
 
 ### New feature: search! 
