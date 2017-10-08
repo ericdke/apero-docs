@@ -6,7 +6,7 @@ Apero is available exclusively [on the Mac App Store.](https://itunes.apple.com/
 
 Pnut.io is a free, but invite-only, short-messaging social network.
 
-All pnut.io users are able to send invitations. You may also get one from pnut.io by contacting them.
+All pnut.io users are able to send invitations. You may also get one from pnut.io.
 
 From [the site](https://pnut.io):
 

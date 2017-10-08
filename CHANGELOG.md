@@ -1,4 +1,4 @@
-## 1.7.0 (19) - 2017-10-07 (WAITING FOR APPROVAL) - 'Wolfen'
+## 1.7.0 (19) - 2017-10-07 - 'Wolfen'
 
 New:
 
