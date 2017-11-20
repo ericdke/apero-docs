@@ -128,6 +128,7 @@ Enter keyword(s) to search for posts containing this/these keyword(s).
  - explore posts with photos: SHIFT + CMD + 2
  - explore trending posts: SHIFT + CMD + 3
  - explore lonely posts: SHIFT + CMD + 4
+ - explore new users posts: SHIFT + CMD + 5
  - search hashtag: CMD + T
  - search username: CMD + U
  - search user by name or description: CTRL + CMD + U
@@ -139,7 +140,7 @@ Enter keyword(s) to search for posts containing this/these keyword(s).
  - bigger font size: CMD + `+` 
  - smaller font size: CMD + `-`
  - switch Dark Mode: SHIFT + CMD + D
- - compact channels list: SHIFT + CMD + K
+ - compact/expand channels list: SHIFT + CMD + K
 
 You can cycle through buttons in the Profile window with TAB and activate the current selection with SPACE.
 Using TAB in the Preferences window cycles through the preferences tabs.
@@ -149,14 +150,11 @@ Clicking once in the text body of a post/message also focuses on the list and se
 
 ## Contextual menu and gestures
 
-- swipe towards left on a post/message: quick hide (see the Objectionable Content chapter on this page)
-- swipe towards right on a post/message: copy a digest of its content to the clipboard
-- right-click on a post/message for a contextual menu of the same options
-- swipe or right-click on a channel to open its messages
+Right-click or swipe on a post/message: reply, copy, translate, search, hide, interactions
+Right-click or swipe on a channel: open channel, mark as read (if there's unread messages)
+Right-click on a channel: set default avatar (if applicable), unsubscribe
 
-## Touch Bar
-
-Apero fully supports Macbook Pro with TouchBar. Many actions and preferences are accessible via dedicated customizable touchbars.
+Favorite swipe actions are set in the Preferences panel.
 
 ## URL Scheme
 
@@ -171,6 +169,10 @@ New message: use "apero://message:@target_user=your text" to open a new message 
     $ open "apero://message:@ericd=Hello from Apero"
 
 *Tip: you can then send the post/message with CMD+ENTER or cancel with ESC.*
+
+## Touch Bar
+
+Apero fully supports Macbook Pro with TouchBar. Most actions and preferences are accessible via dedicated customizable touchbars.
 
 ## Preferences
 
@@ -304,7 +306,7 @@ When replying to a post or a message and there's several mentions, Apero can ins
 
 ### Leading and trailing swipe actions
 
-You can assign the actions availables in the context menus to swipe actions on posts and messages: copy, hide, reply, translate, interactions.
+You can assign any of the actions from the context menus to swipe actions. Available for posts/messages and channels.
 
 ### Translation engine
 

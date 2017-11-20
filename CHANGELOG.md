@@ -1,3 +1,22 @@
+## 1.7.1 (20) - 2017-11-19 - 'Orion'
+
+New:
+
+- Explore posts by new users (users with less than 50 posts)
+- Channels show their default avatar, when available, instead of the first user's avatar
+- Right-click on a channel to set a default avatar if you have full rights (non-PM only, and you need pnut storage)
+- Right-click or Swipe on a channel: mark as read (see Preferences)
+- Right-click on a channel to unsubscribe
+
+Improvements:
+
+- You can now edit Markdown links in your profile description
+- The "Compact channels list" menu displays "Compact" or "Expand" depending on current state
+- Fixed display glitches when resizing then closing then reopening a Send Message window
+- Fixed a possible crash if posting and closing a window at the same time
+- Smaller memory footprint
+
+
 ## 1.7.0 (19) - 2017-10-07 - 'Wolfen'
 
 New:
