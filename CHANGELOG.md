@@ -1,4 +1,4 @@
-## 1.7.1 (20) - 2017-11-19 - 'Orion'
+## 1.7.2 (22) - 2017-12-08 - 'Captain Caveman'
 
 New:
 
@@ -7,6 +7,7 @@ New:
 - Right-click on a channel to set a default avatar if you have full rights (non-PM only, and you need pnut storage)
 - Right-click or Swipe on a channel: mark as read (see Preferences)
 - Right-click on a channel to unsubscribe
+- Jump to a post by its ID
 
 Improvements:
 
@@ -15,7 +16,6 @@ Improvements:
 - Fixed display glitches when resizing then closing then reopening a Send Message window
 - Fixed a possible crash if posting and closing a window at the same time
 - Smaller memory footprint
-
 
 ## 1.7.0 (19) - 2017-10-07 - 'Wolfen'
 
