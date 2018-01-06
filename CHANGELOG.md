@@ -1,3 +1,19 @@
+## 1.7.5 (25) - 2018-01-05 - 'Johnny Jane'
+
+New:
+
+- Play the videos posted by ChimPnut
+
+Improvements:
+
+- Buttons in profile are grey when disabled
+- Fixed a possible crash when closing a window just before posting
+- Close compose windows with CMD-W or window's red button
+
+## 1.7.3 (23) - 2017-12-15 - 'Speed Racer'
+
+Fixes possible issues related to logout and login.
+
 ## 1.7.2 (22) - 2017-12-08 - 'Captain Caveman'
 
 New:
