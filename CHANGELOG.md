@@ -1,3 +1,21 @@
+## 1.7.6 (26) - 2018-01-28 - 'The Prowler'
+
+Fixes:
+
+- Fixed and simplified the drafts system
+- Fixed keyboard shortcuts for configurations such as Dvorak, Colemak, etc 
+
+Improvements:
+
+- If necessary, Apero adds a thread icon to an already downloaded post that just received a reply
+- Complete list of users reposting a post is available as a tooltip on the "Reposted by" label
+
+New:
+
+- Crosspost from a chatroom to Global
+- Option for rounded (default) or squared avatars
+- In the main timeline, force refresh by pulling from the top (only with trackpad)
+
 ## 1.7.5 (25) - 2018-01-05 - 'Johnny Jane'
 
 New:

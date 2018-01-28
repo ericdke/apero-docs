@@ -34,6 +34,7 @@ Authorize Apero to access your pnut.io account:
 - username autocompletion when writing a post/message
 - there's a 5 minute window to edit typos in a post (only once, and with restrictions - this is only a convenience feature)
 - you can delete any of your posts or messages at any time
+- you can "crosspost" from a chatroom to Global (if the message has less than 240 characters)
 - post images (see next paragraph)
 - shortcuts: 
 	- main/posts windows: ESC to close the window, CMD+N to make a new post
@@ -71,6 +72,7 @@ If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you
 - click once on a gif to pause/play
 - Apero can read the special long posts made by ChimPnut, the iOS client
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
+- in the main window only, pull from the top to force refresh (only with trackpad, and pull must be > 40 pixels)
 - right-click on a post or message to get a context menu of actions: reply, copy, hide, translate, interactions...
 - swipe left or right on a post or message to get contextual actions (set your favorite ones in Preferences)
 - shortcuts:
@@ -214,6 +216,10 @@ When this option is on, posts in Global or in Home are highlighted if they conta
 
 When this option is on, the channels list do not show any details such as the list of users and the last message.
 
+### Rounded avatars
+
+When this option is on (default), all avatars are rounded. When this option is off, the original squared image is used.
+
 ### Polling indicator is visible
 
 When this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
@@ -282,7 +288,7 @@ When this option is on, posts tagged with "#NSFW" or programmatically marked as 
 
 ### Automatically save draft
 
-When this option is on, canceling a new post, message, or a reply to a post or message you're writing persistently saves its content. This content is then automatically loaded back when you make the same action again. Limited to 10 items.
+When this option is on, canceling a new post, message, or a reply to a post or message you're writing persistently saves its content. This content is then automatically loaded back when you make the same action again. However, a different action clears the previous saved draft. Example: make new post, cancel, make new post and the draft is loaded back. But make new post, cancel, make new reply, cancel, make new post and the draft is *not* loaded.
 
 ### Clear saved drafts
 
