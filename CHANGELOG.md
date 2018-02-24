@@ -1,3 +1,13 @@
+## 1.7.7 (29) - 2018-02-15 - 'MacGruber'
+
+New:
+
+- Drag & drop an image on the IMG+ button (from the Finder or a browser) to embed in the post/message
+
+Improvements:
+
+- Fixed the counting of remaining characters while typing an incomplete Markdown link
+
 ## 1.7.6 (27) - 2018-01-28 - 'The Prowler'
 
 Fixes:

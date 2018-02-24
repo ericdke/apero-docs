@@ -52,6 +52,8 @@ Wether you're subscribed to this feature or not, you can always embed an existin
 
 *Note: it is necessary to accept the new conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login after a logout.*
 
+You can also drag & drop an image from the Finder or from a browser on the IMG+ button to create an embedded image for a post/message.
+
 ## Sharing/exporting files
 
 If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero to share your files with a public link. You can also use this window, accessible via an icon in the file manager in your Profile, to download the file locally or to create a new post or message with the link already embedded.
