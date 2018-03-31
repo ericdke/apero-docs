@@ -178,6 +178,22 @@ New message: use "apero://message:@target_user=your text" to open a new message 
 
 Apero fully supports Macbook Pro with TouchBar. Most actions and preferences are accessible via dedicated customizable touchbars.
 
+## The Blacklist
+
+Add a tag, mention, link, or even word, to the Blacklist, and any post or message containing this element will be masked in the timeline.
+
+Don't like "#nowplaying" posts? Add the "nowplaying" tag to the Blacklist and these posts will be masked. Don't want to see any posts mentioning "@someuser"? Add the mention "someuser" to the blacklist and these posts will be masked. Etc.
+
+And you can always do a right-click on a blacklisted post/message and click the menu to show/hide its contents (shortcut "b").
+
+Go to Preferences -> Blacklist and enable/disable the feature from there.
+
+This is also where you can manage the contents of the Blacklist (add/delete from the database) and export/import/delete the database.
+
+*Note: categories are isolated. For example, blacklisting a mention only works for active (not deleted) users included in the post/message's entities (it won't search in the text or elsewhere, only in the mentions list). Blacklisting a tag only works with included tags (and same, it will only search in the tags list, not in the text or anywhere else). Etc.*
+
+*Note: blacklisting a domain instead of a complete link would block all links containing this domain.*
+
 ## Preferences
 
 ### Themes
@@ -248,6 +264,14 @@ When this option is on, clicking on a "patter.chat" link in Apero will try to op
 
 When this option is on, clicking on a "posts.pnut.io" link in Apero will try to open the post in Apero itself. When this option is off, Apero will open the link in a browser.
 
+### Open beta.pnut.io links in Apero
+
+When this option is on, clicking on a "beta.pnut.io" link in Apero will try to open the post in Apero itself (works for posts, threads and profiles). When this option is off, Apero will open the link in a browser.
+
+### Show PCA in the profile window
+
+This is an option (default: on) to display the user's "Post Count Achievement" information in the profile windows.
+
 ### Include directed posts
 
 When this option is on, the Home timeline includes all posts from the users you follow, including the posts directed to users you don't follow.
@@ -271,6 +295,7 @@ When the option is on (default: off), the selected post/message is visible and t
     	h = hide
     	c = copy content
     	a = view the post's actions (if any)
+      b = show/hide content of blacklisted post (if applicable)
 
     - for messages: 
 
@@ -283,6 +308,7 @@ When the option is on (default: off), the selected post/message is visible and t
 		SHIFT + d = delete (if applicable)
 		h = hide
 		c = copy content
+      b = show/hide content of blacklisted message (if applicable)
 
 ### Hide NSFW posts
 

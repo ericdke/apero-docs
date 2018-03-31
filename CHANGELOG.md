@@ -1,3 +1,29 @@
+## 1.8.0 (31) - 2018-03-31 - 'Reddington'
+
+### New features
+
+- The Blacklist
+
+Add a tag, mention, link, or even word, to the Blacklist, and any post or message containing this element will be masked in the timeline.
+
+Don't like "#nowplaying" posts? Add the "nowplaying" tag to the Blacklist and these posts will be masked. Don't want to see any posts mentioning "@someuser"? Add the mention "someuser" to the blacklist and these posts will be masked. Etc.
+
+- PCA in the profile window
+
+There's now an option to display the user's "Post Count Achievement" information in the profile window. The current PCA emoji is displayed next to the user's avatar, with the details in its tooltip.
+
+- Open beta.pnut.io links in Apero
+
+There's also a new option to "hijack" beta.pnut.io links. If the option is on, clicking on a link such as "https://beta.pnut.io/@pnutapi/posts/309616" will open the post and its thread in a new Apero window instead of a browser. Clicking on "https://beta.pnut.io/@pnutapi" would open this user's profile in Apero instead of a browser.
+
+### Improvements
+
+- Hiding NSFW also works in Messages (previously only in Posts)
+
+### Fixes
+
+- The preferences and login windows could be duplicated in some cases when clicking on the Dock icon
+
 ## 1.7.7 (29) - 2018-02-15 - 'MacGruber'
 
 New:
