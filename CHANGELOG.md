@@ -1,4 +1,4 @@
-## 1.8.0 (31) - 2018-03-31 - 'Reddington'
+## 1.8.0 (32) - 2018-03-31 - 'Reddington'
 
 ### New features
 
