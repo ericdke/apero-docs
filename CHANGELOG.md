@@ -1,3 +1,7 @@
+## 1.9.2 (37) - 2018-04-10 - ''
+
+
+
 ## 1.9.1 (36) - 2018-04-10 - 'The Burning'
 
 Fixes a bug introduced in 1.9.0 which made web urls inactive for some users.
