@@ -1,12 +1,12 @@
-Apero is a macOS client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12+ recommended). 
-
-*You must have a pnut.io account in order to use Apero.*
+Apero is a macOS native client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12+ recommended). 
 
 Apero is available exclusively [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
 
-Pnut.io is a free, but invite-only, short-messaging social network.
+Pnut.io is a short-messaging social network with a strong community.
 
-All pnut.io users are able to send invitations. You may also get one from pnut.io.
+Pnut.io is free to use. You can also choose to support the service and get more advanced features. 
+
+You can start using Apero for pnut.io as soon as you have created your account on the site. Note that having an existing pnut.io account is mandatory in order to use Apero - you cannot create an account from the app.
 
 From [the site](https://pnut.io):
 
@@ -18,11 +18,11 @@ What does "Apero" mean, by the way? Is it like "apéro" in French? Or maybe "app
 
 ## Authorization and login
 
-Authorize Apero to access your pnut.io account:
+Launch Apero, enter your pnut.io login and password, confirm usage of listed features, then pnut.io will safely send back an authorization token to Apero.
 
-- launch Apero, enter your pnut.io login and password, confirm usage of listed features, then pnut.io will safely send back an authorization token to Apero
-- Apero will then safely save this token in the macOS Keychain for future usage, then will use it to log you in the pnut network
-- successive launches of Apero will automatically log you again in the same account, unless you log out before quitting the app
+Apero will then safely save this token in the macOS Keychain for future usage, then will use it to log you in the pnut network.
+
+Successive launches of Apero will automatically log you again in the same account, unless you log out before quitting the app.
 
 ## Posting
 
@@ -30,9 +30,9 @@ Authorize Apero to access your pnut.io account:
 - messages to users (PMs) are private
 - messages to chatrooms are private or public, depending on the channel you send them to
 - posts are 256 characters maximum, messages are 2048 characters maximum
-- you can @mention users, use #hashtags and `[Markdown links](http:/example.com)`
+- you can `@mention` users, use `#hashtags` and `[Markdown links](http:/example.com)`
 - username autocompletion when writing a post/message
-- there's a 5 minute window to edit typos in a post (only once, and with restrictions - this is only a convenience feature)
+- there's a 5 minute window to edit typos in a post after it's been posted (works only once per post, and with restrictions - this is only a convenience feature)
 - you can delete any of your posts or messages at any time
 - you can "crosspost" from a chatroom to Global (if the message has less than 240 characters)
 - post images (see next paragraph)
@@ -50,13 +50,17 @@ If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you
 
 Wether you're subscribed to this feature or not, you can always embed existing URLs pointing to images on the web (the URL(s) have to directly point to the image(s) online, not to redirecting web page(s)).
 
-*Note: it is necessary to accept the new conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login after a logout.*
+*Note: it is necessary to accept the conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login.*
 
-You can also drag & drop an image from the Finder or from a browser on the IMG+ button to create an embedded image for a post/message.
+You can also drag & drop images from the Finder (or drag from a browser if the URL points directly to an image) on the IMG+ button to create embedded images for a post/message. 
+
+Common image file formats are supported (jpg, png, gif). Some web URLs may not work (specifically if they contain complex queries or redirections).
 
 ## Sharing/exporting files
 
-If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero to share your files with a public link. You can also use this window, accessible via an icon in the file manager in your Profile, to download the file locally or to create a new post or message with the link already embedded.
+If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero to share your files with a public link. 
+
+You can also use this window, accessible via an icon in the file manager in your Profile, to download the file locally or to create a new post or message with the link already embedded.
 
 ## Windows with posts and messages
 
@@ -68,9 +72,9 @@ If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you
 - if you delete or edit with another client, Apero will reflect the changes in its windows
 - click on a username/avatar or @mention to get the user profile
 - click on a hashtag to get a list of posts containing this hashtag
-- click on a link to open it in your browser
+- click on a link opens it in your browser
 - images and gifs are displayed inline in posts and messages
-- double click on an image to open it in your browser
+- double click on an image opens it in your browser
 - click once on a gif to pause/play
 - Apero can read the special long posts made by ChimPnut, the iOS client
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
@@ -87,8 +91,9 @@ If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you
 - detailed informations about the user
 - follow and unfollow, mute and unmute, block and unblock users
 - see the user's followers, followings, posts and bookmarks
+- if the option is on: see the user's Post Count Achievement
 - update your pnut.io profile information: name, description, avatar image, cover image...
-- if you're subscribed to pnut.io storage: manage your pnut.io files (list, delete, change name, change public status) and see your available storage
+- if you're subscribed to pnut.io storage: manage your pnut.io files (list, delete, change name, change public status, share, upload, download) and see your available storage
 - write a PM to this user
 - write a post mentioning this user
 
@@ -100,7 +105,7 @@ Enter a username and Apero will open their profile.
 
 ### User by keywords
 
-Enter keyword(s) to search for a user in their comeplete name or their description.
+Enter keyword(s) to search for a user in their complete name or their description.
 
 ### Chat with user
 
@@ -147,16 +152,22 @@ Enter keyword(s) to search for posts containing this/these keyword(s).
  - compact/expand channels list: SHIFT + CMD + K
 
 You can cycle through buttons in the Profile window with TAB and activate the current selection with SPACE.
+
 Using TAB in the Preferences window cycles through the preferences tabs.
+
 Using TAB in the main streams window cycles through the streams.
+
 Hitting TAB once in other posts/messages windows+ focuses on the list, allowing selection of cells with keyboard.
+
 Clicking once in the text body of a post/message also focuses on the list and selects the cell (see Manual posts/messages selection).
 
 ## Contextual menu and gestures
 
-Right-click or swipe on a post/message: reply, copy, translate, search, hide, interactions
-Right-click or swipe on a channel: open channel, mark as read (if there's unread messages)
-Right-click on a channel: set default avatar (if applicable), unsubscribe
+Right-click or swipe on a post/message: reply, copy, translate, search, hide, interactions.
+
+Right-click or swipe on a channel: open channel, mark as read (if there's unread messages).
+
+Right-click on a channel: set default avatar (if applicable), unsubscribe.
 
 Favorite swipe actions are set in the Preferences panel.
 
@@ -196,7 +207,9 @@ This is also where you can manage the contents of the Blacklist (add/delete from
 
 ## Edited posts
 
-Posts that have been edited have a special icon. When clicked, the original text (before revision) is displayed. Click again to restore the edited version.
+Posts that have been edited have a special icon. 
+
+When clicked, the original text (before revision) is displayed. Click again to restore the edited version.
 
 ## Preferences
 
@@ -204,19 +217,23 @@ Posts that have been edited have a special icon. When clicked, the original text
 
 You can modify Apero's colors.
 
-To achieve this, you may "just" change the colors, or you may load/create a theme.
+To achieve this, you may just change the colors, or you may load/create a theme.
 
-"Just" changing colors takes effect immediately but you have to click "Just save current colors" in order to persist the changes between launches.
+Just changing colors takes effect immediately but you have to click "Just save current colors" in order to persist the changes between launches.
 
 You can otherwise save the set of colors as a theme, giving it a title: it will be added to the list of available themes, and recalled at each launch.
 
-If you modify a theme, you can "just save the current colors" or decide to save as a new theme after the changes.
+If you modify a theme, you can just save the current colors, or decide to save as a new theme after the changes.
 
 There's also a set of default themes to choose from.
 
 ### Dark mode
 
-When this option is on, Apero uses dark windows. When this option is off (default), Apero uses white windows. Changing mode relaunches the application.
+When this option is on, Apero uses dark windows. 
+
+When this option is off (default), Apero uses white windows. 
+
+Changing mode relaunches the application.
 
 ### Fonts
 
@@ -240,11 +257,15 @@ When this option is on, the channels list do not show any details such as the li
 
 ### Rounded avatars
 
-When this option is on (default), all avatars are rounded. When this option is off, the original squared image is used.
+When this option is on (default), all avatars are rounded. 
+
+When this option is off, the original squared image is used.
 
 ### Polling indicator is visible
 
-When this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. When this option is off, nothing in the user interface indicates that polls are occuring.
+When this option is on, every poll for new posts or messages displays an indeterminate circular progress indicator at the top of the window. 
+
+When this option is off, nothing in the user interface indicates that polls are occuring.
 
 ### Timeline sticks to top
 
@@ -254,7 +275,9 @@ When this option is off, the timeline doesn't stick to top at all and instead sh
 
 ### Localized date in timeline
 
-When this option is on, the date and time are displayed using Apero's user's locale and timezone. When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
+When this option is on, the date and time are displayed using Apero's user's locale and timezone. 
+
+When this option is off, the date and time are displayed using the original poster's timezone and are not localized.
 
 ### Show verified icon
 
@@ -262,15 +285,21 @@ When this option is on, an icon is displayed in timelines next to the avatar of 
 
 ### Open patter.chat links in Apero
 
-When this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
+When this option is on, clicking on a "patter.chat" link in Apero will try to open the channel in Apero itself. 
+
+When this option is off, clicking on a "patter.chat" link in Apero will open the link in a browser.
 
 ### Open posts.pnut.io links in Apero
 
-When this option is on, clicking on a "posts.pnut.io" link in Apero will try to open the post in Apero itself. When this option is off, Apero will open the link in a browser.
+When this option is on, clicking on a "posts.pnut.io" link in Apero will try to open the post in Apero itself. 
+
+When this option is off, Apero will open the link in a browser.
 
 ### Open beta.pnut.io links in Apero
 
-When this option is on, clicking on a "beta.pnut.io" link in Apero will try to open the post in Apero itself (works for posts, threads and profiles). When this option is off, Apero will open the link in a browser.
+When this option is on, clicking on a "beta.pnut.io" link in Apero will try to open the post in Apero itself (works for posts, threads and profiles). 
+
+When this option is off, Apero will open the link in a browser.
 
 ### Show PCA in the profile window
 
@@ -286,41 +315,45 @@ When the option is on (default: off), the selected post/message is visible and t
 
     - for posts:
 
-    	p = profile
-    	r = reply
-    	o = open image (if any)
-    	SHIFT + o = repost
-    	s = search user's posts
-    	SHIFT + s = star (bookmark) post
-    	t = thread (if any)
-    	SHIFT + t = translate
-    	e = edit (if applicable)
-    	SHIFT + d = delete (if applicable)
-    	h = hide
-    	c = copy content
-    	a = view the post's actions (if any)
-      b = show/hide content of blacklisted post (if applicable)
+        p = profile
+        r = reply
+        o = open image (if any)
+        SHIFT + o = repost
+        s = search user's posts
+        SHIFT + s = star (bookmark) post
+        t = thread (if any)
+        SHIFT + t = translate
+        e = edit (if applicable)
+        SHIFT + d = delete (if applicable)
+        h = hide
+        c = copy content
+        a = view the post's actions (if any)
+        b = show/hide content of blacklisted post (if applicable)
 
     - for messages: 
 
-    	p = profile
-		r = reply
-		o = open image (if any)
-		s = search messages in channel
-		t = thread (if any)
-		SHIFT + t = translate
-		SHIFT + d = delete (if applicable)
-		h = hide
-		c = copy content
-      b = show/hide content of blacklisted message (if applicable)
+        p = profile
+        r = reply
+        o = open image (if any)
+        s = search messages in channel
+        t = thread (if any)
+        SHIFT + t = translate
+        SHIFT + d = delete (if applicable)
+        h = hide
+        c = copy content
+        b = show/hide content of blacklisted message (if applicable)
 
 ### Hide NSFW posts
 
-When this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will not be visible in the timeline.
+When this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will be masked in the timeline. 
+
+You can right-click to remporarily show the content and right-click again to mask the content.
 
 ### Automatically save draft
 
-When this option is on, canceling a new post, message, or a reply to a post or message you're writing persistently saves its content. This content is then automatically loaded back when you make the same action again. However, a different action clears the previous saved draft. Example: make new post, cancel, make new post and the draft is loaded back. But make new post, cancel, make new reply, cancel, make new post and the draft is *not* loaded.
+When this option is on, canceling a new post, message, or a reply you're writing persistently saves its content. 
+
+This content is then automatically loaded back when you make a new post/reply/message again, and deleted once the post/reply/message has been sent.
 
 ### Clear saved drafts
 
@@ -328,15 +361,25 @@ Clears all drafts from memory and from disk. The action is immediate.
 
 ### Memory cache limit
 
-Maximum cost in RAM of the images/gif cache system. The unit is in Megapixels. Depending of the images compression ratio and bit depth, the default cost of 500MP is usually around 250MB of jpg/png/gif cache in RAM. When the limit is hit, the biggest images in the cache are purged to let room for the new ones. Minimum: 250. No maximum - but more than 2000 would probably be useless.
+Maximum cost in RAM of the images/gif cache system. 
+
+The unit is in Megapixels. Depending of the images compression ratio and bit depth, the default cost of 500MP is usually around 250MB of jpg/png/gif cache in RAM. 
+
+When the limit is hit, the biggest images in the cache are purged to let room for the new ones. 
+
+Minimum: 250. No maximum - but more than 2000 would probably be useless. I suggest using 500 for most cases.
 
 ### Memory cache purge
 
-Number of days (running time) between the images/gif memory cache cleaning cycles. Note that changing this option, even to set it again to the same value, automatically triggers the memory cache cleaning procedure.
+Number of days (running time) between the images/gif memory cache cleaning cycles. 
+
+*Note that changing this option, even to set it again to the same value, automatically triggers the memory cache cleaning procedure.*
 
 ### Disk cache purge
 
-Number of days (calendar time) between the images/gif disk cache cleaning cycle. Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.
+Number of days (calendar time) between the images/gif disk cache cleaning cycle. 
+
+*Note that changing this option, even to set it again to the same value, automatically triggers the disk cache cleaning of the expired items.*
 
 ### Cursor position when replying
 
@@ -350,7 +393,7 @@ You can assign any of the actions from the context menus to swipe actions. Avail
 
 Apero can use Google Translate or Yandex Translate to translate posts and messages.
 
-Google Translate has excellent performances, but has limitations: it cannot detect non-latin languages when doing in-app translation (it works only with translation in browser, the languages have to be specified for in-app), and the total number of languages available is rather small.
+Google Translate has excellent performances, but has limitations: it cannot detect non-latin languages when doing in-app translation (it only works with translation in browser, the languages have to be specified for in-app), and the total number of languages available is rather small.
 
 Yandex Translate has a great number of languages available and does detect non-latin languages rather well, but the combinations of source-target translations is limited: the presence of language A and language B in the list does not guarantee that Yandex will be able to translate from A to B.
 
@@ -399,4 +442,4 @@ Level 2 - Click the Mute button in a user profile: if you mute a user, you won't
 
 Level 3 - Click the Block button in a user profile: if you block a user, they will be automatically muted (as in level 2), they will also be unfollowed, then it limits their account: they will automatically unfollow you, and they won't be able to follow you again, to message you or to do any other action related to your account anymore. This is also managed on API side by pnut.io. The effects are immediate and the limits stay active forever unless you click the Unblock button.
 
-Level 4 - Report: block the user, then send an email to support@pnut.io asking for moderation (give user ids, posts numbers, details about issue).
+Level 4 - Block the user then send an email to support@pnut.io asking for moderation (give user ids, posts numbers, time table, details about issue).
