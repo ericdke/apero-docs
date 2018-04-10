@@ -2,7 +2,7 @@ Apero is a macOS native client for the [pnut.io](https://pnut.io) network (compa
 
 Apero is available exclusively [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
 
-Pnut.io is a short-messaging social network with a strong community.
+Pnut.io is a short-messaging social network [with a strong community](https://pnut.io/about) and a nice API for developers.
 
 Pnut.io is free to use. You can also choose to support the service and get more advanced features. 
 
