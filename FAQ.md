@@ -48,7 +48,7 @@ Posting images works everywhere: in new posts, new messages, replies to posts, r
 
 If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero for uploading images to your pnut account and inserting them in your posts and messages.
 
-Wether you're subscribed to this feature or not, you can always embed an existing URL pointing to an image on the web (it has to directly point to the image online, not to a web page).
+Wether you're subscribed to this feature or not, you can always embed existing URLs pointing to images on the web (the URL(s) have to directly point to the image(s) online, not to redirecting web page(s)).
 
 *Note: it is necessary to accept the new conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login after a logout.*
 
@@ -193,6 +193,10 @@ This is also where you can manage the contents of the Blacklist (add/delete from
 *Note: categories are isolated. For example, blacklisting a mention only works for active (not deleted) users included in the post/message's entities (it won't search in the text or elsewhere, only in the mentions list). Blacklisting a tag only works with included tags (and same, it will only search in the tags list, not in the text or anywhere else). Etc.*
 
 *Note: blacklisting a domain instead of a complete link would block all links containing this domain.*
+
+## Edited posts
+
+Posts that have been edited have a special icon. When clicked, the original text (before revision) is displayed. Click again to restore the edited version.
 
 ## Preferences
 

@@ -1,3 +1,30 @@
+## 1.9.1 (36) - 2018-04-10 - 'The Burning'
+
+Fixes a bug introduced in 1.9.0 which made web urls inactive for some users.
+
+## 1.9.0 (34) - 2018-04-09 - 'Carpenter Brut'
+
+### New features
+
+- View multiple images in a single post/message
+
+If a post/message contains more than one embedded image, all the images are displayed (previously only the first one was displayed).
+
+- Post multiple images in a single post/message
+
+If you have a pnut badge, you can embed up to four images from local storage, pnut storage or web urls. Without a badge you can still embed up to four images from web urls.
+
+- View orginal version of an edited post
+
+Posts that have been edited have a special icon. When clicked, the original text before revision is displayed. Click again to restore the edited version.
+
+### Fixes
+
+- Posting an NSFW post with an image while the option to hide NSFW was off would result in a cell of wrong dimensions
+- The blacklist items would not always be sorted alphabetically
+- The play button for ChimPnut videos wasn't visible on dark backgrounds
+- Clicking on a patter link when option to hijack is active and the channel not subscribed would open the site behind the modal alert
+
 ## 1.8.0 (32) - 2018-03-31 - 'Reddington'
 
 ### New features
