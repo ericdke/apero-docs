@@ -1,3 +1,33 @@
+## 1.9.2 (37) - 2018-04-14 - 'Vision Thing'
+
+### New features
+
+- Export an image by drag and dropping from a post/message
+
+Drag any embedded image from a post or message to a compatible destination (like the Finder, a browser, Preview, etc) to export the full resolution version.
+
+*Note: dragging replaces the double click action which previously opened the images in a browser. You can however still open in browser without dragging by using the right-click context menu.*
+
+### Improvements
+
+- No action for avatars and usernames/names if window is inactive
+
+Clicking on an avatar or username/name in a timeline while the window is inactive does not open the user profile but only activates the window.
+
+- Double click in a post or message
+
+A double click in the text of a post or message sends its text to the clipboard (and briefly displays a confirmation message if animations is enabled in Preferences).
+
+- Added "Open video" context menu
+
+You can already play a video in Apero by clicking on its play icon. But since neither the video player nor the new drag and drop feature support exporting videos, there's now an "Open video" context menu for posts/messages with embedded video, which opens the link in a browser.
+
+### Fixes
+
+- Adding an image by dropping an url from a browser on the "IMG+" button could generate a broken Markdown link
+- Some buttons did not switch their titles as expected
+- Some tooltips were incomplete
+
 ## 1.9.1 (36) - 2018-04-10 - 'The Burning'
 
 Fixes a bug introduced in 1.9.0 which made web urls inactive for some users.
