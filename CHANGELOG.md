@@ -1,3 +1,28 @@
+## 1.9.3 (42) - 2018-04-28 - 'Walt'
+
+### New features
+
+- Polls: create
+
+Create a new poll, and attach the poll to a new post.
+
+- Polls: open
+
+If a post has a poll attached, click on the Open Poll button to open the poll in the DragonPolls website. From there you will be able to vote and see the poll results.
+
+### Improvements
+
+- GIFs are automatically paused when their window is invisible
+- Timeline is updated without animation if its window is invisible
+- Other energy-efficency modifications in compliance with App Nap
+
+### Fixes
+
+- PCAs display in the profile window
+- Consistency of GIFs' animating state
+- Lag when dragging a GIF from a post/message
+- Invisible images in the results of "Search post by keyword"
+
 ## 1.9.2 (37) - 2018-04-14 - 'Vision Thing'
 
 ### New features

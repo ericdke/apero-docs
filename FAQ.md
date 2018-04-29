@@ -211,6 +211,12 @@ Posts that have been edited have a special icon.
 
 When clicked, the original text (before revision) is displayed. Click again to restore the edited version.
 
+## Polls
+
+To create a new poll, go to menu "New > Poll" (or use the `CTRL+CMD+O` shortcut). Create the poll then click on the "Embed" button to attach the poll to a new post. (A poll must have a prompt, between 2 and 10 options, and a duration between 2 minutes and 14 days.)
+
+If a post has a poll attached, click on the Open Poll button to open the poll in the DragonPolls website. From there you will be able to vote and see the poll results.
+
 ## Preferences
 
 ### Themes
