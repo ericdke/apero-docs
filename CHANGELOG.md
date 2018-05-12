@@ -1,3 +1,13 @@
+## 1.9.4 (46) - 2018-05-12 - 'Kite'
+
+- Posts and messages containing "#pnutprinter" are be displayed with a monospace font (in order of availability: Menlo, Andale Mono, Courier)
+- There's a Preference to add more tags triggering the monospace font
+- New font available in Preferences: Andale Mono
+- Fixed: the text in a post could sometimes be shifted vertically
+- Fixed: app behavior was undefined if the token saved in the Keychain was deleted while the app was running
+- Fixed: files uploaded to pnut storage since the 1.9.3 update had incorrect file names
+- Fixed: the compose window didn't close properly after sending a message to a user via their Profile window
+
 ## 1.9.3 (42) - 2018-04-28 - 'Walt'
 
 ### New features
