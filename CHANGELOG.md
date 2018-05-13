@@ -1,6 +1,6 @@
 ## 1.9.4 (46) - 2018-05-12 - 'Kite'
 
-- Posts and messages containing "#pnutprinter" are be displayed with a monospace font (in order of availability: Menlo, Andale Mono, Courier)
+- Posts and messages containing "#pnutprinter" are displayed with a monospace font (in order of availability: Menlo, Andale Mono, Courier)
 - There's a Preference to add more tags triggering the monospace font
 - New font available in Preferences: Andale Mono
 - Fixed: the text in a post could sometimes be shifted vertically
