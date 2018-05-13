@@ -251,7 +251,7 @@ When this option is on (default), Apero will comply to system-wide changes regar
 
 ### Enable animations
 
-When this option is off, Apero will minimize its use of animations (for now, only targets the transition animation between streams).
+When this option is off, Apero will minimize its use of animations.
 
 ### Highlight posts mentioning you
 
@@ -288,6 +288,14 @@ When this option is off, the date and time are displayed using the original post
 ### Show verified icon
 
 When this option is on, an icon is displayed in timelines next to the avatar of "verified" users. (This icon is also always visible in the Profile window).
+
+### Render ASCII tags in monospace
+
+Starting with 1.9.4, any post containing the tag #pnutprinter will be displayed in monospace font.
+
+This option allows adding more tags that will trigger displaying a post in monospace font. Suggestions: #ascii, #asciiart...
+
+The monospace font will be, in order of availability, either Menlo, Andale Mono or Courier.
 
 ### Open patter.chat links in Apero
 
