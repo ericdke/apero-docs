@@ -74,17 +74,18 @@ You can also use this window, accessible via an icon in the file manager in your
 - click on a hashtag to get a list of posts containing this hashtag
 - click on a link opens it in your browser
 - images and gifs are displayed inline in posts and messages
-- double click on an image opens it in your browser
+- drag an image from Apero to the Finder or any other app
 - click once on a gif to pause/play
 - Apero can read the special long posts made by ChimPnut, the iOS client
+- Apero can also read the videos posted by ChimPnut
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
 - in the main window only, pull from the top to force refresh (only with trackpad, and pull must be > 40 pixels)
 - right-click on a post or message to get a context menu of actions: reply, copy, hide, translate, interactions...
 - swipe left or right on a post or message to get contextual actions (set your favorite ones in Preferences)
 - shortcuts:
-	- main window: CMD+1 for Global, CMD+2 for Home, CMD+3 for Mentions
+	- main window: CMD+1 for Global, CMD+2 for Home, CMD+3 for Mentions (or use TAB)
 	- channels list window: CMD+R to refresh
-	- if a messages window is active: CMD+P to compose a new PM (supersedes the main CMD+P profile shortcut)
+	- if a messages window is active: CMD+P to compose a new PM (overrides the main CMD+P profile shortcut)
 
 ## Profile
 
@@ -138,16 +139,17 @@ Enter keyword(s) to search for posts containing this/these keyword(s).
  - explore trending posts: SHIFT + CMD + 3
  - explore lonely posts: SHIFT + CMD + 4
  - explore new users posts: SHIFT + CMD + 5
+ - explore posts with polls: SHIFT + CMD + 6
  - search hashtag: CMD + T
  - search username: CMD + U
  - search user by name or description: CTRL + CMD + U
  - search chat with user: CMD + O
  - search posts using keywords: CTRL + CMD + P
- - preferences: CMD + `,`
+ - preferences: CMD + ,
  - recall main window: ALT + CMD + 0
  - cycle between opened windows: CMD + `
  - bigger font size: CMD + `+` 
- - smaller font size: CMD + `-`
+ - smaller font size: CMD + -
  - switch Dark Mode: SHIFT + CMD + D
  - compact/expand channels list: SHIFT + CMD + K
 
@@ -213,9 +215,15 @@ When clicked, the original text (before revision) is displayed. Click again to r
 
 ## Polls
 
-To create a new poll, go to menu "New > Poll" (or use the `CTRL+CMD+O` shortcut). Create the poll then click on the "Embed" button to attach the poll to a new post. (A poll must have a prompt, between 2 and 10 options, and a duration between 2 minutes and 14 days.)
+To create a new poll, go to menu "New > Poll" (or use the `CTRL+CMD+O` shortcut). 
 
-If a post has a poll attached, click on the Open Poll button to open the poll in the DragonPolls website. From there you will be able to vote and see the poll results.
+Create the poll then click on the "Embed" button to attach the poll to a new post. 
+
+A poll must have a prompt, between 2 and 10 options, and a duration between 2 minutes and 14 days.
+
+If a post has a poll attached, click on the Open Poll button to open the poll in a new window. 
+
+From there you will be able to vote and see the poll results.
 
 ## Preferences
 
@@ -456,4 +464,4 @@ Level 2 - Click the Mute button in a user profile: if you mute a user, you won't
 
 Level 3 - Click the Block button in a user profile: if you block a user, they will be automatically muted (as in level 2), they will also be unfollowed, then it limits their account: they will automatically unfollow you, and they won't be able to follow you again, to message you or to do any other action related to your account anymore. This is also managed on API side by pnut.io. The effects are immediate and the limits stay active forever unless you click the Unblock button.
 
-Level 4 - Block the user then send an email to support@pnut.io asking for moderation (give user ids, posts numbers, time table, details about issue).
+Level 4 - From a post: right-click and select "Report user", select the report reason, send, then block the user. // Or block the user then send an email to support@pnut.io asking for moderation (give user ids, posts numbers, time table, details about issues).

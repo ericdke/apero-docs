@@ -1,3 +1,15 @@
+## 1.9.5 (48) - 2018-05-22 - 'Dreamwalker'
+
+- The poll button opens a custom window in Apero instead of a third-party website. You can vote and see the results directly in this window.
+- There's a new "Explore" menu: posts with polls.
+- The scroll position is recalled when switching between Global/Home/Mentions.
+- The user name in the timeline uses the username if the user has no name.
+- The maximum font size for posts/messages text is now 16 (previously 15).
+- The Users List window shows current selection and accepts keyboard commands.
+- The repost button sometimes did not reflect the post's state correctly.
+- The Interactions window uses a fixed width font for digits.
+- You can report a user to pnut.io from a post's contextual menu. Available reasons: soliciting, wrong account type, unexpected NSFW, user abuse.
+
 ## 1.9.4 (46) - 2018-05-12 - 'Kite'
 
 - Posts and messages containing "#pnutprinter" are displayed with a monospace font (in order of availability: Menlo, Andale Mono, Courier)
