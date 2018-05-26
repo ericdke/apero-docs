@@ -1,3 +1,7 @@
+## 1.9.6 (49) - 2018-05-26 - 'Patsy'
+
+- Fixed a bug related to network requests
+
 ## 1.9.5 (48) - 2018-05-22 - 'Dreamwalker'
 
 - The poll button opens a custom window in Apero instead of a third-party website. You can vote and see the results directly in this window.
