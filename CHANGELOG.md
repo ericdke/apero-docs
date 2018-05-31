@@ -1,3 +1,17 @@
+## 1.10 (52) - 2018-05-30 - 'Uncle Spielby'
+
+### Post videos
+
+- Post video files if you have pnut storage (m4v, mp4, avi, mpg)
+- You can even record your own videos from Apero!
+- With an option to post the recorded video as GIF instead of MP4
+
+### Other
+
+- Preview image for Youtube links in timeline
+- Better detection of Droplr links
+- Better timeline management when posting an edited post
+
 ## 1.9.6 (49) - 2018-05-26 - 'Patsy'
 
 - Fixed a bug related to network requests

@@ -35,26 +35,28 @@ Successive launches of Apero will automatically log you again in the same accoun
 - there's a 5 minute window to edit typos in a post after it's been posted (works only once per post, and with restrictions - this is only a convenience feature)
 - you can delete any of your posts or messages at any time
 - you can "crosspost" from a chatroom to Global (if the message has less than 240 characters)
-- post images (see next paragraph)
+- post images/videos (see next paragraph)
 - shortcuts: 
 	- main/posts windows: ESC to close the window, CMD+N to make a new post
 	- compose window: ESC to cancel and close the compose window, CMD+RETURN to immediately post
 
 *Note: if you don't have any subscribed channels yet, here's a few examples to subscribe to: 617 ("tests"), 18 ("developers"), 207 ("coffee lovers")... You can also send messages (PMs) to users, which automatically subscribes you to the newly created private channel.*
 
-## Posting with images
+## Posting with images/videos
 
-Posting images works everywhere: in new posts, new messages, replies to posts, replies to messages, chatrooms...
+Adding files to posts works everywhere: in new posts, new messages, replies to posts, replies to messages, chatrooms...
 
-If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero for uploading images to your pnut account and inserting them in your posts and messages.
+If you are subscribed to [pnut.io storage](https://pnut.io/account/storage), you will be able to use Apero for uploading images/videos to your pnut account and inserting them in your posts and messages.
 
 Wether you're subscribed to this feature or not, you can always embed existing URLs pointing to images on the web (the URL(s) have to directly point to the image(s) online, not to redirecting web page(s)).
 
 *Note: it is necessary to accept the conditions about posting with files even if your account is not (yet) subscribed to the pnut.io storage option. This will be asked only once at login.*
 
-You can also drag & drop images from the Finder (or drag from a browser if the URL points directly to an image) on the IMG+ button to create embedded images for a post/message. 
+You can also drag & drop images/videos from the Finder (or drag from a browser if the URL points directly to an image) on the IMG+ button to create embedded images for a post/message. 
 
-Common image file formats are supported (jpg, png, gif). Some web URLs may not work (specifically if they contain complex queries or redirections).
+Common file formats are supported (jpg, png, gif, mpg, mp4, m4v). Some web URLs may not work (specifically if they contain complex queries or redirections).
+
+You also have a "New video" feature where you can record a video to post on pnut. You can also post as GIF instead of video if you're using the 5 seconds or 10 seconds preset.
 
 ## Sharing/exporting files
 
