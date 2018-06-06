@@ -1,4 +1,32 @@
-## 1.10 (52) - 2018-05-30 - 'Uncle Spielby'
+## 1.10.2 (54) - 2018-06-05 - Spoiler Alert
+
+### Spoilers
+
+- Add a Spoiler Alert to a post
+ 
+Once posted, this post and all the posts in the same thread will be collapsed, with a status indicating the topic of the spoiler.
+
+Existing Spoiler Alert posts are also hidden. Existing threads from such posts too, as long as Apero can see the source post containing the Spoiler Alert.
+
+You can show/hide the post from its contextual menu.
+
+### Hide threads
+
+- New contextual menu for posts: hide/show thread
+
+### Add video link
+
+- New option to add the file link to the text when adding a video to a post
+
+### Other
+
+- New Preference for posts/messages: line height (goes from 1.25 to 1.5)
+- Hiding/showing a post/thread in one window is propagated to all other windows
+- The New Video menu disappears as expected when the user is logged out
+- Some posts with Youtube link had the play button misplaced
+- Youtube preview now only added if the post doesn't have other embeds
+
+## 1.10 (52) - 2018-05-30 - Uncle Spielby
 
 ### Post videos
 
@@ -12,11 +40,11 @@
 - Better detection of Droplr links
 - Better timeline management when posting an edited post
 
-## 1.9.6 (49) - 2018-05-26 - 'Patsy'
+## 1.9.6 (49) - 2018-05-26 - Patsy
 
 - Fixed a bug related to network requests
 
-## 1.9.5 (48) - 2018-05-22 - 'Dreamwalker'
+## 1.9.5 (48) - 2018-05-22 - Dreamwalker
 
 - The poll button opens a custom window in Apero instead of a third-party website. You can vote and see the results directly in this window.
 - There's a new "Explore" menu: posts with polls.
@@ -28,7 +56,7 @@
 - The Interactions window uses a fixed width font for digits.
 - You can report a user to pnut.io from a post's contextual menu. Available reasons: soliciting, wrong account type, unexpected NSFW, user abuse.
 
-## 1.9.4 (46) - 2018-05-12 - 'Kite'
+## 1.9.4 (46) - 2018-05-12 - Kite
 
 - Posts and messages containing "#pnutprinter" are displayed with a monospace font (in order of availability: Menlo, Andale Mono, Courier)
 - There's a Preference to add more tags triggering the monospace font
@@ -38,7 +66,7 @@
 - Fixed: files uploaded to pnut storage since the 1.9.3 update had incorrect file names
 - Fixed: the compose window didn't close properly after sending a message to a user via their Profile window
 
-## 1.9.3 (42) - 2018-04-28 - 'Walt'
+## 1.9.3 (42) - 2018-04-28 - Walt
 
 ### New features
 
@@ -63,7 +91,7 @@ If a post has a poll attached, click on the Open Poll button to open the poll in
 - Lag when dragging a GIF from a post/message
 - Invisible images in the results of "Search post by keyword"
 
-## 1.9.2 (37) - 2018-04-14 - 'Vision Thing'
+## 1.9.2 (37) - 2018-04-14 - Vision Thing
 
 ### New features
 
@@ -93,11 +121,11 @@ You can already play a video in Apero by clicking on its play icon. But since ne
 - Some buttons did not switch their titles as expected
 - Some tooltips were incomplete
 
-## 1.9.1 (36) - 2018-04-10 - 'The Burning'
+## 1.9.1 (36) - 2018-04-10 - The Burning
 
 Fixes a bug introduced in 1.9.0 which made web urls inactive for some users.
 
-## 1.9.0 (34) - 2018-04-09 - 'Carpenter Brut'
+## 1.9.0 (34) - 2018-04-09 - Carpenter Brut
 
 ### New features
 
@@ -120,7 +148,7 @@ Posts that have been edited have a special icon. When clicked, the original text
 - The play button for ChimPnut videos wasn't visible on dark backgrounds
 - Clicking on a patter link when option to hijack is active and the channel not subscribed would open the site behind the modal alert
 
-## 1.8.0 (32) - 2018-03-31 - 'Reddington'
+## 1.8.0 (32) - 2018-03-31 - Reddington
 
 ### New features
 
@@ -146,7 +174,7 @@ There's also a new option to "hijack" beta.pnut.io links. If the option is on, c
 
 - The preferences and login windows could be duplicated in some cases when clicking on the Dock icon
 
-## 1.7.7 (29) - 2018-02-15 - 'MacGruber'
+## 1.7.7 (29) - 2018-02-15 - MacGruber
 
 New:
 
@@ -156,7 +184,7 @@ Improvements:
 
 - Fixed the counting of remaining characters while typing an incomplete Markdown link
 
-## 1.7.6 (27) - 2018-01-28 - 'The Prowler'
+## 1.7.6 (27) - 2018-01-28 - The Prowler
 
 Fixes:
 
@@ -174,7 +202,7 @@ New:
 - Option for rounded (default) or squared avatars
 - In the main timeline, force refresh by pulling from the top (only with trackpad)
 
-## 1.7.5 (25) - 2018-01-05 - 'Johnny Jane'
+## 1.7.5 (25) - 2018-01-05 - Johnny Jane
 
 New:
 
@@ -186,11 +214,11 @@ Improvements:
 - Fixed a possible crash when closing a window just before posting
 - Close compose windows with CMD-W or window's red button
 
-## 1.7.3 (23) - 2017-12-15 - 'Speed Racer'
+## 1.7.3 (23) - 2017-12-15 - Speed Racer
 
 Fixes possible issues related to logout and login.
 
-## 1.7.2 (22) - 2017-12-08 - 'Captain Caveman'
+## 1.7.2 (22) - 2017-12-08 - Captain Caveman
 
 New:
 
@@ -209,7 +237,7 @@ Improvements:
 - Fixed a possible crash if posting and closing a window at the same time
 - Smaller memory footprint
 
-## 1.7.0 (19) - 2017-10-07 - 'Wolfen'
+## 1.7.0 (19) - 2017-10-07 - Wolfen
 
 New:
 
@@ -252,7 +280,7 @@ Other improvements and fixes:
 - Fixed an animation error when scrolling to last post seen at launch which could cause avatars of two adjacent users to be swapped.
 
 
-## 1.6.0 (16) - 2017-09-02 - 'The Dance Of The Bees'
+## 1.6.0 (16) - 2017-09-02 - The Dance Of The Bees
 
 ### New feature: search! 
 
@@ -283,11 +311,11 @@ From the "Search" menu. Example: "pnut" will find all users whose description *o
 - Fixed: opening some patter links in-app could sometimes bring up the subscription dialog even if the user was already subscribed to the channel.
 - Fixed: the value of the polling interval for messages was not always saved from Preferences.
 
-## 1.5.1 (15) - 2017-08-22 - 'Technicolor'
+## 1.5.1 (15) - 2017-08-22 - Technicolor
 
 - Fixed the inactive color panels in Preferences
 
-## 1.5.0 (14) - 2017-08-21 - 'Apocalypse, baby'
+## 1.5.0 (14) - 2017-08-21 - Apocalypse, baby
 
 - Image upload! You can now use your pnut.io storage to upload images and gifs in your posts and messages with Apero.
 - Translate! a post in Apero or in browser. Automatic language detection or manual selection.
@@ -308,12 +336,12 @@ From the "Search" menu. Example: "pnut" will find all users whose description *o
 - Fixed: the avatar tooltip doesn't show the follow status anymore if the user is yourself.
 - Fixed: disabling "Timeline sticks to top" still sticked the timeline to top for some users.
 
-## 1.4.2 (12) - 2017-06-24 - 'Beluga'
+## 1.4.2 (12) - 2017-06-24 - Beluga
 
 - New: Macbook Pro Touch Bar support
 - Added an option to ignore system-wide Dark Mode changes
 
-## 1.4.1 (11) - 2017-06-12 - 'Vatanen'
+## 1.4.1 (11) - 2017-06-12 - Vatanen
 
 - Fixed: lag when scrolling the timelines. It's now blazing fast!
 - New: menus and shortcuts to change the font size and to switch UI mode
@@ -322,7 +350,7 @@ From the "Search" menu. Example: "pnut" will find all users whose description *o
 - Fixed: vertically resizing the followers/followings windows
 - Fixed: height of description text in profile window for logged-in user
 
-## 1.4.0 (10) - 2017-06-06 - 'Xenomorph'
+## 1.4.0 (10) - 2017-06-06 - Xenomorph
 
 - New option: dark mode
 - Saving drafts now work for posts, replies and messages
@@ -337,11 +365,11 @@ From the "Search" menu. Example: "pnut" will find all users whose description *o
 - Right-click or swipe on a channel to open it (alternatives to the usual double-click)
 - General improvements (more background threads, more GPU acceleration, faster algorithms, smaller memory footprint)
 
-## 1.3.2 (8) - 2017-05-12 - 'Generations'
+## 1.3.2 (8) - 2017-05-12 - Generations
 
 - Fixed the login window for macOS 10.11
 
-## 1.3.1 (7) - 2017-05-08 - 'Bubble Bobble'
+## 1.3.1 (7) - 2017-05-08 - Bubble Bobble
 
 - The pnut.io authorization page now continues to work properly even after having entered wrong credentials in previous login attempts (this fixes the issue reported in a recent review). There's also a button to go back to the authorization forms if the user has navigated elsewhere before authorizing Apero.
 - New "Interactions" window: from menubar (for the logged-in user) or contextual menu (for a post). This lists who followed/unfollowed you, who replied to your posts, bookmarks activity, etc.
@@ -358,11 +386,11 @@ From the "Search" menu. Example: "pnut" will find all users whose description *o
 - Fixed some rare issues in the handling of hidden posts/messages.
 - Fixed the issue of the avatars in the followers/followings lists not being rounded.
 
-## 1.2 (5) - 2017-04-20 - 'The Rainbow Warrior'
+## 1.2 (5) - 2017-04-20 - The Rainbow Warrior
 
 - Fixed: color panel from preferences window
 
-## 1.1 (4) - 2017-04-15 - 'The Fisher King'
+## 1.1 (4) - 2017-04-15 - The Fisher King
 
 - New: click once on a gif to pause/play
 - Fixed: crash when opening channels/messages window after API update

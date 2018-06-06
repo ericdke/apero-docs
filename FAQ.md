@@ -82,7 +82,7 @@ You can also use this window, accessible via an icon in the file manager in your
 - Apero can also read the videos posted by ChimPnut
 - in conversation windows (threads), clicking on the text of a post/message highlights the current root and target posts/messages
 - in the main window only, pull from the top to force refresh (only with trackpad, and pull must be > 40 pixels)
-- right-click on a post or message to get a context menu of actions: reply, copy, hide, translate, interactions...
+- right-click on a post or message to get a context menu of actions: reply, copy, hide/show post or thread, translate, interactions...
 - swipe left or right on a post or message to get contextual actions (set your favorite ones in Preferences)
 - shortcuts:
 	- main window: CMD+1 for Global, CMD+2 for Home, CMD+3 for Mentions (or use TAB)
@@ -167,7 +167,7 @@ Clicking once in the text body of a post/message also focuses on the list and se
 
 ## Contextual menu and gestures
 
-Right-click or swipe on a post/message: reply, copy, translate, search, hide, interactions.
+Right-click or swipe on a post/message: reply, copy, translate, search, hide post or thread, interactions.
 
 Right-click or swipe on a channel: open channel, mark as read (if there's unread messages).
 
@@ -350,6 +350,7 @@ When the option is on (default: off), the selected post/message is visible and t
         e = edit (if applicable)
         SHIFT + d = delete (if applicable)
         h = hide
+        SHIFT + h = hide thread (if applicable)
         c = copy content
         a = view the post's actions (if any)
         b = show/hide content of blacklisted post (if applicable)
@@ -372,6 +373,10 @@ When the option is on (default: off), the selected post/message is visible and t
 When this option is on, posts tagged with "#NSFW" or programmatically marked as NSFW will be masked in the timeline. 
 
 You can right-click to remporarily show the content and right-click again to mask the content.
+
+### Hide Spoiler Alert posts
+
+Posts can include a "Spoiler Alert". Such posts are displayed as collapsed by default, with a label showing the topic of the spoiler. Use the contextual menu to show the post's content.
 
 ### Automatically save draft
 
