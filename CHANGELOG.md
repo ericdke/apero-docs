@@ -1,3 +1,38 @@
+## 1.12 (64) - 2018-09-14 - The Great Gig In The Sky
+
+In macOS 10.14 Mojave: 
+
+### Light and Dark modes
+
+Apero always follows the system's settings and automatically fades between light and dark modes without having to relaunch.
+
+### Accent colors
+
+There's an option to use the system's "Accent colors" for Apero's buttons instead of the native orange/yellow palette.
+
+### Color themes
+
+Each color theme now has a light and a dark palette. When switching from a mode to the other, the theme seamlessly changes its palette at the same time. 
+
+A few new default themes and modified existing ones demonstrate the feature. "Classic" themes also have two palettes but they're identical by default. As usual, all default themes are modifiable, and you can create your own themes.
+
+## From El Capitan to Mojave and beyond
+
+Apero is still compatible with 10.11 (El Capitan), 10.12 (Sierra), and 10.13 (High Sierra), but the features described above are only active in 10.14 (Mojave).
+
+## Other changes
+
+For all macOS versions:
+
+- New: attach a private note (short text) to a bookmark (optional)
+- New: the Channels window shows date/time of last refresh in the title bar
+- New: thread windows are updated if new downloaded posts in the main window are part of their threads (completude is only guaranteed if the main window is set on the Global stream)
+- Some buttons have been modified to improve visual consistency
+- Fixed a bug which prevented loading more posts in the Bookmarks window
+- Fixed a display bug in users list with rounded avatars
+- Fixed placeholder image for broken image links sometimes not displaying
+- Fixed a display bug when editing a post with embedded images
+
 ## 1.10.2 (54) - 2018-06-05 - Spoiler Alert
 
 ### Spoilers

@@ -93,12 +93,14 @@ You can also use this window, accessible via an icon in the file manager in your
 
 - detailed informations about the user
 - follow and unfollow, mute and unmute, block and unblock users
-- see the user's followers, followings, posts and bookmarks
+- see the user's followers, followings, posts and bookmarks*
 - if the option is on: see the user's Post Count Achievement
 - update your pnut.io profile information: name, description, avatar image, cover image...
 - if you're subscribed to pnut.io storage: manage your pnut.io files (list, delete, change name, change public status, share, upload, download) and see your available storage
 - write a PM to this user
 - write a post mentioning this user
+
+*bookmarks are public, but notes associated with your bookmarks are only visible by you in the Bookmarks section
 
 ## Search menu
 
@@ -167,17 +169,23 @@ Clicking once in the text body of a post/message also focuses on the list and se
 
 ## Contextual menu and gestures
 
-Right-click or swipe on a post/message: reply, copy, translate, search, hide post or thread, interactions.
+Right-click or swipe on a post/message: reply, copy, translate, search, hide post or thread, interactions and more.
 
 Right-click or swipe on a channel: open channel, mark as read (if there's unread messages).
 
 Right-click on a channel: set default avatar (if applicable), unsubscribe.
 
+Option-click on the bookmark icon: bookmark with a note (also accessible via the post's contextual menu).
+
 Favorite swipe actions are set in the Preferences panel.
+
+When a contextual menu is displayed, you can select one of its entries by clicking it or by hitting the corresponding key.
 
 ## URL Scheme
 
 Apero has two actions available via URL Scheme: new post and new message.
+
+*As usual in the command line with escaped levels of text, beware of what characters you type.*
 
 New post: use "apero://post=your text" to open a new post window prefilled with text. Example in the terminal with the "open" command: 
 
@@ -243,7 +251,17 @@ If you modify a theme, you can just save the current colors, or decide to save a
 
 There's also a set of default themes to choose from.
 
+#### Starting with macOS 10.14 Mojave
+
+Themes are associated with Dark and Light mode.
+
+Each color theme now has a light and a dark palette. When switching from a mode to the other, the theme seamlessly changes its palette at the same time. 
+
+A few new default themes and modified existing ones demonstrate the feature. "Classic" themes also have two palettes but they're identical by default. As usual, all default themes are modifiable, and you can create your own themes.
+
 ### Dark mode
+
+#### macOS versions older than 10.14 Mojave
 
 When this option is on, Apero uses dark windows. 
 
@@ -251,13 +269,23 @@ When this option is off (default), Apero uses white windows.
 
 Changing mode relaunches the application.
 
+#### Starting with macOS 10.14 Mojave
+
+Apero always follows the system's settings and automatically fades between light and dark modes without having to relaunch. Manual selection of Dark/Light mode is disabled.
+
 ### Fonts
 
 Available fonts are curated to be compatible with Apero and their number is very limited on purpose.
 
 ### Monitor system changes
 
+#### macOS versions older than 10.14 Mojave
+
 When this option is on (default), Apero will comply to system-wide changes regarding the Dark Mode setting. These changes can be caused by macOS or by applications such as "F.lux".
+
+#### Starting with macOS 10.14 Mojave
+
+Apero always follows the system's settings. This option is disabled.
 
 ### Enable animations
 
@@ -276,6 +304,12 @@ When this option is on, the channels list do not show any details such as the li
 When this option is on (default), all avatars are rounded. 
 
 When this option is off, the original squared image is used.
+
+### Accent colors
+
+*Only in macOS 10.14 Mojave and up*
+
+Option to use the system's "Accent colors" for Apero's buttons instead of the native orange/yellow palette.
 
 ### Polling indicator is visible
 
@@ -345,6 +379,7 @@ When the option is on (default: off), the selected post/message is visible and t
         SHIFT + o = repost
         s = search user's posts
         SHIFT + s = star (bookmark) post
+        OPTION + SHIFT + s = star (bookmark) post with a note
         t = thread (if any)
         SHIFT + t = translate
         e = edit (if applicable)
