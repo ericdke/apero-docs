@@ -1,3 +1,9 @@
+## 1.13 (65) - 2018-10-20 - Verbal Kint
+
+You can now open as many compose windows as you want. Creating new posts or messages, or replying to posts or messages, no longer requires using a unique compose window.
+
+There's also a new option to not include your own mention when replying to yourself and only yourself (self-threads).
+
 ## 1.12 (64) - 2018-09-14 - The Great Gig In The Sky
 
 In macOS 10.14 Mojave: 

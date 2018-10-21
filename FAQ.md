@@ -1,4 +1,4 @@
-Apero is a macOS native client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.12+ recommended). 
+Apero is a macOS native client for the [pnut.io](https://pnut.io) network (compatible 10.11+, 10.14+ recommended). 
 
 Apero is available exclusively [on the Mac App Store.](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1219902108&mt=12)
 
@@ -415,13 +415,13 @@ Posts can include a "Spoiler Alert". Such posts are displayed as collapsed by de
 
 ### Automatically save draft
 
-When this option is on, canceling a new post, message, or a reply you're writing persistently saves its content. 
+When this option is on, canceling a new post, message, or a reply you're writing, saves the content of the compose window.
 
-This content is then automatically loaded back when you make a new post/reply/message again, and deleted once the post/reply/message has been sent.
+The content of the last canceled compose window is then automatically loaded back when you make a new post/reply/message again, and deleted once the post/reply/message has been sent.
 
 ### Clear saved drafts
 
-Clears all drafts from memory and from disk. The action is immediate.
+Clears all presence of drafts from memory and from disk. The action is immediate.
 
 ### Memory cache limit
 
@@ -452,6 +452,10 @@ When replying to a post or a message and there's several mentions, Apero can ins
 ### Leading and trailing swipe actions
 
 You can assign any of the actions from the context menus to swipe actions. Available for posts/messages and channels.
+
+### Own mention in self threads
+
+When replying to yourself (and only yourself), this option allows to inlude or not include your own username in the reply.
 
 ### Translation engine
 
