@@ -453,10 +453,6 @@ When replying to a post or a message and there's several mentions, Apero can ins
 
 You can assign any of the actions from the context menus to swipe actions. Available for posts/messages and channels.
 
-### Own mention in self threads
-
-When replying to yourself (and only yourself), this option allows to inlude or not include your own username in the reply.
-
 ### Translation engine
 
 Apero can use Google Translate or Yandex Translate to translate posts and messages.

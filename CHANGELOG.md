@@ -1,3 +1,7 @@
+## 1.14 (66) - 2018-10-26 - durrrrrrr
+
+There was a bug caused by the "self-thread" option added in 1.13, causing mentions to randomly disappear in replies. This option has been removed.
+
 ## 1.13 (65) - 2018-10-20 - Verbal Kint
 
 You can now open as many compose windows as you want. Creating new posts or messages, or replying to posts or messages, no longer requires using a unique compose window.
