@@ -1,3 +1,9 @@
+## 1.15 (67) - 2018-11-17 - The Haunting of Hill House
+
+- New option: light system font (in addition to the normal system font).
+- New option: follow nested hidden items (for posts containing several hidden reasons). When set to Off (default, recommended), such posts are directly opened in a single click. When set to On, the previous default behavior is used and the nested hidden reasons are followed in order.
+- The Hide Thread feature has been fixed (it now works as expected with all posts in all windows).
+
 ## 1.14 (66) - 2018-10-26 - durrrrrrr
 
 There was a bug caused by the "self-thread" option added in 1.13, causing mentions to randomly disappear in replies. This option has been removed.
