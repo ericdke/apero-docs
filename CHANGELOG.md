@@ -1,3 +1,10 @@
+## 1.16 (71) - 2018-11-24 - Cheesecake
+
+- Fixed: at launch, if network is not ready, Apero waits instead of stopping
+- New context menu: copy post URL (also available as swipe gesture)
+- New option to disable swipe gestures (select "None" in the lists)
+- New option: shortcut for New Message can be CMD+N (instead of CMD+P)
+
 ## 1.15 (67) - 2018-11-17 - The Haunting of Hill House
 
 - New option: light system font (in addition to the normal system font).
