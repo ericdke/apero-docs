@@ -1,3 +1,9 @@
+## 1.17 (72) - 2019-03-04 - Pacific Trim
+
+- Removed the "Just save current colors" feature in Preferences (replaced with saving modifications of the current theme)
+- Fixed a bug in the Interactions window where content could not be displayed in some cases
+- Fixed a bug where the current user could not vote on a private poll
+
 ## 1.16 (71) - 2018-11-24 - Cheesecake
 
 - Fixed: at launch, if network is not ready, Apero waits instead of stopping

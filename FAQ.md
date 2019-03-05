@@ -241,13 +241,11 @@ From there you will be able to vote and see the poll results.
 
 You can modify Apero's colors.
 
-To achieve this, you may just change the colors, or you may load/create a theme.
+To achieve this, you may load, create or modify a theme.
 
-Just changing colors takes effect immediately but you have to click "Just save current colors" in order to persist the changes between launches.
+You can save the set of colors as a theme, giving it a title: it will be added to the list of available themes, and recalled at each launch.
 
-You can otherwise save the set of colors as a theme, giving it a title: it will be added to the list of available themes, and recalled at each launch.
-
-If you modify a theme, you can just save the current colors, or decide to save as a new theme after the changes.
+An existing theme can be saved too, this will automatically add "modified" to its title.
 
 There's also a set of default themes to choose from.
 
